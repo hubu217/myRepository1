@@ -52,5 +52,22 @@ public class BaseController {
 	public String redirectJsp(@PathVariable String folder, @PathVariable String jspName) {
 		return "/" + folder + "/" + jspName;
 	}
+	
+	
+	public static void main(String[] args) {
+		
+		String after = "";
+		String test ="11aaa";
+		after = test.replaceAll("a", "b");
+		System.out.println(after);
+		
+		
+		String str = "helloworld aaa";
+		String strA = str.replaceAll("a", "b");
+		String strB = str.replaceFirst("l", "*");
+		System.out.println(strA);
+		System.out.println(strB);
+
+	}
 
 }
