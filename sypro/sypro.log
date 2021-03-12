@@ -1,0 +1,437 @@
+[INFO][2021-03-09 15:55:49,793][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2021-03-09 15:55:50,002][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2021-03-09 15:55:50,057][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-druid.xml]
+[INFO][2021-03-09 15:55:50,085][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@9317bfb: startup date [Tue Mar 09 15:55:50 CST 2021]; root of context hierarchy
+[INFO][2021-03-09 15:55:50,184][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2021-03-09 15:55:50,213][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4f7c2b90: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,baseDaoImpl,bugDaoImpl,bugTypeDaoImpl,resourceDaoImpl,resourceTypeDaoImpl,roleDaoImpl,userDaoImpl,bugServiceImpl,bugTypeServiceImpl,initServiceImpl,resourceServiceImpl,resourceTypeServiceImpl,roleServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO][2021-03-09 15:55:50,494][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2021-03-09 15:55:50,613][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[INFO][2021-03-09 15:55:50,616][org.hibernate.Version]HHH000412: Hibernate Core {4.1.6.Final}
+[INFO][2021-03-09 15:55:50,616][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2021-03-09 15:55:50,617][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2021-03-09 15:55:50,927][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO][2021-03-09 15:55:50,941][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2021-03-09 15:55:50,943][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2021-03-09 15:55:51,365][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2021-03-09 15:55:51,366][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2021-03-09 15:55:51,367][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2021-03-09 15:55:51,386][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: mysqldemo.tbug
+[INFO][2021-03-09 15:55:51,386][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [bugtype_id, id, name, modifydatetime, createdatetime, note]
+[INFO][2021-03-09 15:55:51,387][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: [fk363980c8589d3]
+[INFO][2021-03-09 15:55:51,387][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [id, fk363980c8589d3, primary]
+[INFO][2021-03-09 15:55:51,396][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: mysqldemo.tbugtype
+[INFO][2021-03-09 15:55:51,396][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id, name]
+[INFO][2021-03-09 15:55:51,396][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-03-09 15:55:51,397][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [id, primary]
+[INFO][2021-03-09 15:55:51,408][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: mysqldemo.tresource
+[INFO][2021-03-09 15:55:51,408][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id, icon, remark, tresourcetype_id, name, seq, pid, url]
+[INFO][2021-03-09 15:55:51,408][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: [fk1aae1082a3b371e0, fk1aae1082bf95b68d]
+[INFO][2021-03-09 15:55:51,408][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary, fk1aae1082a3b371e0, fk1aae1082bf95b68d]
+[INFO][2021-03-09 15:55:51,417][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: mysqldemo.tresourcetype
+[INFO][2021-03-09 15:55:51,418][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id, name]
+[INFO][2021-03-09 15:55:51,418][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-03-09 15:55:51,418][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary]
+[INFO][2021-03-09 15:55:51,428][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: mysqldemo.trole
+[INFO][2021-03-09 15:55:51,428][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id, remark, name, seq, pid]
+[INFO][2021-03-09 15:55:51,428][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: [fk69826ea70bc69c8]
+[INFO][2021-03-09 15:55:51,428][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [fk69826ea70bc69c8, primary]
+[INFO][2021-03-09 15:55:51,437][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: mysqldemo.trole_tresource
+[INFO][2021-03-09 15:55:51,437][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [trole_id, tresource_id]
+[INFO][2021-03-09 15:55:51,437][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: [fk761b156d69c63a4d, fk761b156dd4d4a2cd]
+[INFO][2021-03-09 15:55:51,437][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [fk761b156d69c63a4d, primary, fk761b156dd4d4a2cd]
+[INFO][2021-03-09 15:55:51,446][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: mysqldemo.tuser
+[INFO][2021-03-09 15:55:51,446][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id, pwd, name, modifydatetime, createdatetime]
+[INFO][2021-03-09 15:55:51,446][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2021-03-09 15:55:51,446][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [name, primary]
+[INFO][2021-03-09 15:55:51,454][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: mysqldemo.tuser_trole
+[INFO][2021-03-09 15:55:51,454][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [trole_id, tuser_id]
+[INFO][2021-03-09 15:55:51,454][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: [fkeb0130ead4d4a2cd, fkeb0130ea79ff66ad]
+[INFO][2021-03-09 15:55:51,454][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [fkeb0130ead4d4a2cd, primary, fkeb0130ea79ff66ad]
+[INFO][2021-03-09 15:55:51,455][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2021-03-09 15:55:51,536][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2021-03-09 15:55:50",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1325056690, ConnectTime:"2021-03-09 15:55:50", UseCount:2, LastActiveTime:"2021-03-09 15:55:51"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[TRACE][2021-03-09 15:55:51,664][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,683][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 1
+[TRACE][2021-03-09 15:55:51,684][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,685][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 1
+[TRACE][2021-03-09 15:55:51,687][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - xtgl
+[TRACE][2021-03-09 15:55:51,689][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zygl
+[TRACE][2021-03-09 15:55:51,690][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglTreeGrid
+[TRACE][2021-03-09 15:55:51,692][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglMenu
+[TRACE][2021-03-09 15:55:51,693][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglAddPage
+[TRACE][2021-03-09 15:55:51,694][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglAdd
+[TRACE][2021-03-09 15:55:51,696][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglEditPage
+[TRACE][2021-03-09 15:55:51,697][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglEdit
+[TRACE][2021-03-09 15:55:51,698][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglDelete
+[TRACE][2021-03-09 15:55:51,699][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsgl
+[TRACE][2021-03-09 15:55:51,700][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglTreeGrid
+[TRACE][2021-03-09 15:55:51,702][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglAddPage
+[TRACE][2021-03-09 15:55:51,703][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglAdd
+[TRACE][2021-03-09 15:55:51,704][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglEditPage
+[TRACE][2021-03-09 15:55:51,706][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglEdit
+[TRACE][2021-03-09 15:55:51,707][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglDelete
+[TRACE][2021-03-09 15:55:51,709][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglGrantPage
+[TRACE][2021-03-09 15:55:51,710][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglGrant
+[TRACE][2021-03-09 15:55:51,712][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhgl
+[TRACE][2021-03-09 15:55:51,713][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglDateGrid
+[TRACE][2021-03-09 15:55:51,714][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglAddPage
+[TRACE][2021-03-09 15:55:51,716][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglAdd
+[TRACE][2021-03-09 15:55:51,717][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglEditPage
+[TRACE][2021-03-09 15:55:51,718][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglEdit
+[TRACE][2021-03-09 15:55:51,719][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglDelete
+[TRACE][2021-03-09 15:55:51,721][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglBatchDelete
+[TRACE][2021-03-09 15:55:51,722][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglGrantPage
+[TRACE][2021-03-09 15:55:51,723][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglGrant
+[TRACE][2021-03-09 15:55:51,724][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglEditPwdPage
+[TRACE][2021-03-09 15:55:51,726][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglEditPwd
+[TRACE][2021-03-09 15:55:51,727][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - buggl
+[TRACE][2021-03-09 15:55:51,728][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglDateGrid
+[TRACE][2021-03-09 15:55:51,729][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglAddPage
+[TRACE][2021-03-09 15:55:51,730][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglAdd
+[TRACE][2021-03-09 15:55:51,731][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglEditPage
+[TRACE][2021-03-09 15:55:51,732][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglEdit
+[TRACE][2021-03-09 15:55:51,734][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglDelete
+[TRACE][2021-03-09 15:55:51,735][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglView
+[TRACE][2021-03-09 15:55:51,736][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - sjygl
+[TRACE][2021-03-09 15:55:51,737][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - wjgl
+[TRACE][2021-03-09 15:55:51,738][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - wjglView
+[TRACE][2021-03-09 15:55:51,739][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - wjglUpload
+[TRACE][2021-03-09 15:55:51,740][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - chart
+[TRACE][2021-03-09 15:55:51,741][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - userCreateDatetimeChart
+[TRACE][2021-03-09 15:55:51,742][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jeasyuiApi
+[TRACE][2021-03-09 15:55:51,816][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - xtgl
+[TRACE][2021-03-09 15:55:51,818][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zygl
+[TRACE][2021-03-09 15:55:51,819][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglTreeGrid
+[TRACE][2021-03-09 15:55:51,820][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglMenu
+[TRACE][2021-03-09 15:55:51,821][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglAddPage
+[TRACE][2021-03-09 15:55:51,821][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglAdd
+[TRACE][2021-03-09 15:55:51,822][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglEditPage
+[TRACE][2021-03-09 15:55:51,823][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglEdit
+[TRACE][2021-03-09 15:55:51,823][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyglDelete
+[TRACE][2021-03-09 15:55:51,823][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsgl
+[TRACE][2021-03-09 15:55:51,824][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglTreeGrid
+[TRACE][2021-03-09 15:55:51,824][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglAddPage
+[TRACE][2021-03-09 15:55:51,825][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglAdd
+[TRACE][2021-03-09 15:55:51,826][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglEditPage
+[TRACE][2021-03-09 15:55:51,826][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglEdit
+[TRACE][2021-03-09 15:55:51,827][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglDelete
+[TRACE][2021-03-09 15:55:51,827][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglGrantPage
+[TRACE][2021-03-09 15:55:51,828][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsglGrant
+[TRACE][2021-03-09 15:55:51,829][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhgl
+[TRACE][2021-03-09 15:55:51,829][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglDateGrid
+[TRACE][2021-03-09 15:55:51,830][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglAddPage
+[TRACE][2021-03-09 15:55:51,830][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglAdd
+[TRACE][2021-03-09 15:55:51,831][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglEditPage
+[TRACE][2021-03-09 15:55:51,831][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglEdit
+[TRACE][2021-03-09 15:55:51,832][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglDelete
+[TRACE][2021-03-09 15:55:51,833][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglBatchDelete
+[TRACE][2021-03-09 15:55:51,833][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglGrantPage
+[TRACE][2021-03-09 15:55:51,834][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglGrant
+[TRACE][2021-03-09 15:55:51,834][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglEditPwdPage
+[TRACE][2021-03-09 15:55:51,835][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhglEditPwd
+[TRACE][2021-03-09 15:55:51,835][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - buggl
+[TRACE][2021-03-09 15:55:51,836][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglDateGrid
+[TRACE][2021-03-09 15:55:51,837][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglAddPage
+[TRACE][2021-03-09 15:55:51,837][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglAdd
+[TRACE][2021-03-09 15:55:51,838][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglEditPage
+[TRACE][2021-03-09 15:55:51,838][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglEdit
+[TRACE][2021-03-09 15:55:51,839][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglDelete
+[TRACE][2021-03-09 15:55:51,840][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugglView
+[TRACE][2021-03-09 15:55:51,840][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - sjygl
+[TRACE][2021-03-09 15:55:51,841][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - wjgl
+[TRACE][2021-03-09 15:55:51,841][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - wjglView
+[TRACE][2021-03-09 15:55:51,842][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - wjglUpload
+[TRACE][2021-03-09 15:55:51,842][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - chart
+[TRACE][2021-03-09 15:55:51,843][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - userCreateDatetimeChart
+[TRACE][2021-03-09 15:55:51,844][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jeasyuiApi
+[TRACE][2021-03-09 15:55:51,851][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,861][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:51,867][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:51,874][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,880][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - sjyAdmin
+[TRACE][2021-03-09 15:55:51,886][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:51,893][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:51,913][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,913][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,914][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:51,915][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:51,915][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:51,916][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:51,917][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,918][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,918][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - sjyAdmin
+[TRACE][2021-03-09 15:55:51,919][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - sjyAdmin
+[TRACE][2021-03-09 15:55:51,920][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:51,920][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:51,921][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:51,922][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:51,922][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,923][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 1
+[TRACE][2021-03-09 15:55:51,923][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 2
+[TRACE][2021-03-09 15:55:51,924][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 3
+[TRACE][2021-03-09 15:55:51,925][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 4
+[TRACE][2021-03-09 15:55:51,925][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 5
+[TRACE][2021-03-09 15:55:51,926][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:51,926][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,927][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglTreeGrid
+[TRACE][2021-03-09 15:55:51,927][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,928][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglAddPage
+[TRACE][2021-03-09 15:55:51,928][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,928][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - wjglUpload
+[TRACE][2021-03-09 15:55:51,929][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,929][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglAdd
+[TRACE][2021-03-09 15:55:51,930][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,930][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglEdit
+[TRACE][2021-03-09 15:55:51,931][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,931][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglGrantPage
+[TRACE][2021-03-09 15:55:51,932][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,932][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglAddPage
+[TRACE][2021-03-09 15:55:51,933][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,933][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - userCreateDatetimeChart
+[TRACE][2021-03-09 15:55:51,933][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,934][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglEditPage
+[TRACE][2021-03-09 15:55:51,934][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,934][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglDateGrid
+[TRACE][2021-03-09 15:55:51,935][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,935][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglDelete
+[TRACE][2021-03-09 15:55:51,936][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,936][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglBatchDelete
+[TRACE][2021-03-09 15:55:51,936][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,936][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - buggl
+[TRACE][2021-03-09 15:55:51,937][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,937][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglGrant
+[TRACE][2021-03-09 15:55:51,938][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,938][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jeasyuiApi
+[TRACE][2021-03-09 15:55:51,938][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,939][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglEditPwd
+[TRACE][2021-03-09 15:55:51,939][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,939][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglDateGrid
+[TRACE][2021-03-09 15:55:51,940][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,940][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglEdit
+[TRACE][2021-03-09 15:55:51,941][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,941][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglView
+[TRACE][2021-03-09 15:55:51,941][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,941][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglDelete
+[TRACE][2021-03-09 15:55:51,942][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,942][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglEdit
+[TRACE][2021-03-09 15:55:51,943][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,943][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglTreeGrid
+[TRACE][2021-03-09 15:55:51,943][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,943][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglDelete
+[TRACE][2021-03-09 15:55:51,944][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,944][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglMenu
+[TRACE][2021-03-09 15:55:51,945][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,945][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglAdd
+[TRACE][2021-03-09 15:55:51,945][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,945][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - xtgl
+[TRACE][2021-03-09 15:55:51,946][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,946][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglEditPage
+[TRACE][2021-03-09 15:55:51,947][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,947][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglEditPage
+[TRACE][2021-03-09 15:55:51,947][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,948][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglDelete
+[TRACE][2021-03-09 15:55:51,948][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,948][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglEditPage
+[TRACE][2021-03-09 15:55:51,949][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,949][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglAddPage
+[TRACE][2021-03-09 15:55:51,949][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,950][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsgl
+[TRACE][2021-03-09 15:55:51,950][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,950][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglEdit
+[TRACE][2021-03-09 15:55:51,951][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,951][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglAddPage
+[TRACE][2021-03-09 15:55:51,952][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,952][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglGrantPage
+[TRACE][2021-03-09 15:55:51,952][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,952][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - wjgl
+[TRACE][2021-03-09 15:55:51,953][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,953][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zygl
+[TRACE][2021-03-09 15:55:51,954][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,954][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - chart
+[TRACE][2021-03-09 15:55:51,954][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,954][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglGrant
+[TRACE][2021-03-09 15:55:51,955][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,955][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - sjygl
+[TRACE][2021-03-09 15:55:51,956][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,956][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglEditPwdPage
+[TRACE][2021-03-09 15:55:51,956][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,957][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglAdd
+[TRACE][2021-03-09 15:55:51,957][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,957][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhgl
+[TRACE][2021-03-09 15:55:51,958][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,958][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglAdd
+[TRACE][2021-03-09 15:55:51,958][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,959][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - wjglView
+[TRACE][2021-03-09 15:55:51,959][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:51,959][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglTreeGrid
+[TRACE][2021-03-09 15:55:51,960][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:51,960][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zygl
+[TRACE][2021-03-09 15:55:51,961][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:51,961][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglMenu
+[TRACE][2021-03-09 15:55:51,961][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:51,961][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglDelete
+[TRACE][2021-03-09 15:55:51,962][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:51,962][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglAddPage
+[TRACE][2021-03-09 15:55:51,963][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:51,963][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglEditPage
+[TRACE][2021-03-09 15:55:51,964][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:51,964][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglAdd
+[TRACE][2021-03-09 15:55:51,964][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:51,964][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglEdit
+[TRACE][2021-03-09 15:55:51,965][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:51,965][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglTreeGrid
+[TRACE][2021-03-09 15:55:51,966][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:51,966][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglGrantPage
+[TRACE][2021-03-09 15:55:51,966][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:51,966][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglEditPage
+[TRACE][2021-03-09 15:55:51,967][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:51,967][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglGrant
+[TRACE][2021-03-09 15:55:51,967][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:51,968][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglAddPage
+[TRACE][2021-03-09 15:55:51,968][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:51,968][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsgl
+[TRACE][2021-03-09 15:55:51,969][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:51,969][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglAdd
+[TRACE][2021-03-09 15:55:51,969][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:51,970][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglEdit
+[TRACE][2021-03-09 15:55:51,970][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:51,970][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglDelete
+[TRACE][2021-03-09 15:55:51,971][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,972][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglGrantPage
+[TRACE][2021-03-09 15:55:51,973][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,973][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglAddPage
+[TRACE][2021-03-09 15:55:51,974][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,974][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglEditPage
+[TRACE][2021-03-09 15:55:51,975][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,975][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglDateGrid
+[TRACE][2021-03-09 15:55:51,976][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,976][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglBatchDelete
+[TRACE][2021-03-09 15:55:51,977][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,977][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglGrant
+[TRACE][2021-03-09 15:55:51,978][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,978][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglDelete
+[TRACE][2021-03-09 15:55:51,979][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,981][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglEditPwdPage
+[TRACE][2021-03-09 15:55:51,982][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,982][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhgl
+[TRACE][2021-03-09 15:55:51,983][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,983][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglEditPwd
+[TRACE][2021-03-09 15:55:51,984][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,984][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglAdd
+[TRACE][2021-03-09 15:55:51,984][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:51,984][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglEdit
+[TRACE][2021-03-09 15:55:51,985][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - sjyAdmin
+[TRACE][2021-03-09 15:55:51,985][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - sjygl
+[TRACE][2021-03-09 15:55:51,986][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:51,986][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglAddPage
+[TRACE][2021-03-09 15:55:51,987][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:51,987][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglEdit
+[TRACE][2021-03-09 15:55:51,987][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:51,988][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglDelete
+[TRACE][2021-03-09 15:55:51,988][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:51,988][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglAdd
+[TRACE][2021-03-09 15:55:51,989][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:51,989][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - buggl
+[TRACE][2021-03-09 15:55:51,989][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:51,990][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglEditPage
+[TRACE][2021-03-09 15:55:51,990][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:51,990][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglDateGrid
+[TRACE][2021-03-09 15:55:51,991][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:51,991][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugglView
+[TRACE][2021-03-09 15:55:51,992][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:51,992][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyglTreeGrid
+[TRACE][2021-03-09 15:55:51,992][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:51,992][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsglTreeGrid
+[TRACE][2021-03-09 15:55:51,993][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:51,993][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zygl
+[TRACE][2021-03-09 15:55:51,993][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:51,994][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhglDateGrid
+[TRACE][2021-03-09 15:55:51,994][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:51,994][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - xtgl
+[TRACE][2021-03-09 15:55:51,995][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:51,995][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jeasyuiApi
+[TRACE][2021-03-09 15:55:51,996][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:51,996][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsgl
+[TRACE][2021-03-09 15:55:51,996][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:51,997][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhgl
+[TRACE][2021-03-09 15:55:51,997][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:51,998][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 1
+[TRACE][2021-03-09 15:55:51,998][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 2
+[TRACE][2021-03-09 15:55:51,999][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 3
+[TRACE][2021-03-09 15:55:51,999][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 4
+[TRACE][2021-03-09 15:55:52,000][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 5
+[TRACE][2021-03-09 15:55:52,001][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:52,002][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:52,010][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 1
+[TRACE][2021-03-09 15:55:52,015][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 2
+[TRACE][2021-03-09 15:55:52,021][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 3
+[TRACE][2021-03-09 15:55:52,027][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 4
+[TRACE][2021-03-09 15:55:52,034][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 5
+[TRACE][2021-03-09 15:55:52,039][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:52,043][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:51 CST 2021
+[TRACE][2021-03-09 15:55:52,044][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - ÀÔ”Ó
+[TRACE][2021-03-09 15:55:52,044][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [3] as [VARCHAR] - e10adc3949ba59abbe56e057f20f883e
+[TRACE][2021-03-09 15:55:52,044][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [4] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:52,045][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:52 CST 2021
+[TRACE][2021-03-09 15:55:52,045][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - admin1
+[TRACE][2021-03-09 15:55:52,045][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [3] as [VARCHAR] - e10adc3949ba59abbe56e057f20f883e
+[TRACE][2021-03-09 15:55:52,046][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [4] as [VARCHAR] - 1
+[TRACE][2021-03-09 15:55:52,046][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:52 CST 2021
+[TRACE][2021-03-09 15:55:52,046][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - admin2
+[TRACE][2021-03-09 15:55:52,047][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [3] as [VARCHAR] - e10adc3949ba59abbe56e057f20f883e
+[TRACE][2021-03-09 15:55:52,047][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [4] as [VARCHAR] - 2
+[TRACE][2021-03-09 15:55:52,047][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:52 CST 2021
+[TRACE][2021-03-09 15:55:52,047][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - admin3
+[TRACE][2021-03-09 15:55:52,048][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [3] as [VARCHAR] - e10adc3949ba59abbe56e057f20f883e
+[TRACE][2021-03-09 15:55:52,048][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [4] as [VARCHAR] - 3
+[TRACE][2021-03-09 15:55:52,048][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:52 CST 2021
+[TRACE][2021-03-09 15:55:52,048][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - admin4
+[TRACE][2021-03-09 15:55:52,049][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [3] as [VARCHAR] - e10adc3949ba59abbe56e057f20f883e
+[TRACE][2021-03-09 15:55:52,049][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [4] as [VARCHAR] - 4
+[TRACE][2021-03-09 15:55:52,049][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:52 CST 2021
+[TRACE][2021-03-09 15:55:52,050][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - admin5
+[TRACE][2021-03-09 15:55:52,050][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [3] as [VARCHAR] - e10adc3949ba59abbe56e057f20f883e
+[TRACE][2021-03-09 15:55:52,050][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [4] as [VARCHAR] - 5
+[TRACE][2021-03-09 15:55:52,050][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:52 CST 2021
+[TRACE][2021-03-09 15:55:52,051][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:52,051][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [3] as [VARCHAR] - e10adc3949ba59abbe56e057f20f883e
+[TRACE][2021-03-09 15:55:52,051][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [4] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:52,051][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:52,052][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:52,052][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:52,052][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - sjyAdmin
+[TRACE][2021-03-09 15:55:52,053][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:52,053][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:52,053][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:52,053][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:52,054][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:52,054][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:52,055][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:52,055][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:52,055][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 0
+[TRACE][2021-03-09 15:55:52,055][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:52,056][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 1
+[TRACE][2021-03-09 15:55:52,056][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - zyAdmin
+[TRACE][2021-03-09 15:55:52,057][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 2
+[TRACE][2021-03-09 15:55:52,057][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - jsAdmin
+[TRACE][2021-03-09 15:55:52,057][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 3
+[TRACE][2021-03-09 15:55:52,057][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - yhAdmin
+[TRACE][2021-03-09 15:55:52,058][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 4
+[TRACE][2021-03-09 15:55:52,058][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - sjyAdmin
+[TRACE][2021-03-09 15:55:52,059][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - 5
+[TRACE][2021-03-09 15:55:52,059][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - bugAdmin
+[TRACE][2021-03-09 15:55:52,059][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [1] as [VARCHAR] - guest
+[TRACE][2021-03-09 15:55:52,060][org.hibernate.type.descriptor.sql.BasicBinder]binding parameter [2] as [VARCHAR] - guest
+[INFO][2021-03-09 15:55:52,073][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@9317bfb: startup date [Tue Mar 09 15:55:50 CST 2021]; root of context hierarchy
+[INFO][2021-03-09 15:55:52,074][org.springframework.beans.factory.support.DefaultListableBeanFactory]Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4f7c2b90: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,baseDaoImpl,bugDaoImpl,bugTypeDaoImpl,resourceDaoImpl,resourceTypeDaoImpl,roleDaoImpl,userDaoImpl,bugServiceImpl,bugTypeServiceImpl,initServiceImpl,resourceServiceImpl,resourceTypeServiceImpl,roleServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO][2021-03-09 15:55:52,078][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed

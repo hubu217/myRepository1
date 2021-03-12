@@ -11,7 +11,7 @@ th {background: #336699; color: #FFFFFF; text-align: left;}
 </head>
 <body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
 <hr size="1" noshade>
-Log session start time Thu Feb 09 01:36:59 CST 2017<br>
+Log session start time Tue Mar 09 15:55:49 CST 2021<br>
 <br>
 <table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
 <tr>
@@ -23,7 +23,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>1</td>
+<td>0</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.springframework.beans.factory.xml.XmlBeanDefinitionReader category">org.springframework.beans.factory.xml.XmlBeanDefinitionReader</td>
@@ -31,7 +31,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>287</td>
+<td>209</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.springframework.beans.factory.xml.XmlBeanDefinitionReader category">org.springframework.beans.factory.xml.XmlBeanDefinitionReader</td>
@@ -39,7 +39,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>380</td>
+<td>264</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.springframework.beans.factory.xml.XmlBeanDefinitionReader category">org.springframework.beans.factory.xml.XmlBeanDefinitionReader</td>
@@ -47,15 +47,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>407</td>
+<td>292</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.springframework.context.support.GenericApplicationContext category">org.springframework.context.support.GenericApplicationContext</td>
-<td title="Message">Refreshing org.springframework.context.support.GenericApplicationContext@6083dc9b: startup date [Thu Feb 09 01:37:00 CST 2017]; root of context hierarchy</td>
+<td title="Message">Refreshing org.springframework.context.support.GenericApplicationContext@9317bfb: startup date [Tue Mar 09 15:55:50 CST 2021]; root of context hierarchy</td>
 </tr>
 
 <tr>
-<td>533</td>
+<td>391</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer category">org.springframework.beans.factory.config.PropertyPlaceholderConfigurer</td>
@@ -63,15 +63,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>566</td>
+<td>420</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
-<td title="Message">Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25496f80: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,baseDaoImpl,bugDaoImpl,bugTypeDaoImpl,resourceDaoImpl,resourceTypeDaoImpl,roleDaoImpl,userDaoImpl,bugServiceImpl,bugTypeServiceImpl,initServiceImpl,resourceServiceImpl,resourceTypeServiceImpl,roleServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy</td>
+<td title="Message">Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4f7c2b90: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,baseDaoImpl,bugDaoImpl,bugTypeDaoImpl,resourceDaoImpl,resourceTypeDaoImpl,roleDaoImpl,userDaoImpl,bugServiceImpl,bugTypeServiceImpl,initServiceImpl,resourceServiceImpl,resourceTypeServiceImpl,roleServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy</td>
 </tr>
 
 <tr>
-<td>851</td>
+<td>701</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="com.alibaba.druid.pool.DruidDataSource category">com.alibaba.druid.pool.DruidDataSource</td>
@@ -79,7 +79,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>1023</td>
+<td>820</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.annotations.common.Version category">org.hibernate.annotations.common.Version</td>
@@ -87,7 +87,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>1028</td>
+<td>823</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.Version category">org.hibernate.Version</td>
@@ -95,7 +95,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>1029</td>
+<td>823</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.cfg.Environment category">org.hibernate.cfg.Environment</td>
@@ -103,7 +103,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>1030</td>
+<td>824</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.cfg.Environment category">org.hibernate.cfg.Environment</td>
@@ -111,23 +111,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>2964</td>
+<td>1134</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.dialect.Dialect category">org.hibernate.dialect.Dialect</td>
-<td title="Message">HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect</td>
+<td title="Message">HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect</td>
 </tr>
 
 <tr>
-<td>2971</td>
-<td title="main thread">main</td>
-<td title="Level">INFO</td>
-<td title="org.hibernate.engine.jdbc.internal.LobCreatorBuilder category">org.hibernate.engine.jdbc.internal.LobCreatorBuilder</td>
-<td title="Message">HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4</td>
-</tr>
-
-<tr>
-<td>2978</td>
+<td>1148</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.engine.transaction.internal.TransactionFactoryInitiator category">org.hibernate.engine.transaction.internal.TransactionFactoryInitiator</td>
@@ -135,7 +127,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>2982</td>
+<td>1150</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory category">org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory</td>
@@ -143,7 +135,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>3199</td>
+<td>1572</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
@@ -151,7 +143,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>3199</td>
+<td>1573</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
@@ -159,7 +151,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>3200</td>
+<td>1574</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
@@ -167,15 +159,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>5286</td>
+<td>1593</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000261: Table found: nszjjythDemo.dbo.tbug</td>
+<td title="Message">HHH000261: Table found: mysqldemo.tbug</td>
 </tr>
 
 <tr>
-<td>5287</td>
+<td>1593</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
@@ -183,31 +175,31 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>5287</td>
+<td>1594</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000108: Foreign keys: [fk_q8x2eyh7d65rv7vcd7iw2h8yf]</td>
+<td title="Message">HHH000108: Foreign keys: [fk363980c8589d3]</td>
 </tr>
 
 <tr>
-<td>5287</td>
+<td>1594</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000126: Indexes: [pk__tbug__3214ec275832119f]</td>
+<td title="Message">HHH000126: Indexes: [id, fk363980c8589d3, primary]</td>
 </tr>
 
 <tr>
-<td>5302</td>
+<td>1603</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000261: Table found: nszjjythDemo.dbo.tbugtype</td>
+<td title="Message">HHH000261: Table found: mysqldemo.tbugtype</td>
 </tr>
 
 <tr>
-<td>5302</td>
+<td>1603</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
@@ -215,7 +207,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>5302</td>
+<td>1603</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
@@ -223,23 +215,23 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>5302</td>
+<td>1604</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000126: Indexes: [pk__tbugtype__3214ec275c02a283]</td>
+<td title="Message">HHH000126: Indexes: [id, primary]</td>
 </tr>
 
 <tr>
-<td>5327</td>
+<td>1615</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000261: Table found: nszjjythDemo.dbo.tresource</td>
+<td title="Message">HHH000261: Table found: mysqldemo.tresource</td>
 </tr>
 
 <tr>
-<td>5327</td>
+<td>1615</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
@@ -247,31 +239,31 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>5327</td>
+<td>1615</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000108: Foreign keys: [fk_m0i6pj14hcg1mleojnl7igg6o, fk_6w0sgqbec1o81uqqjsmejg57p]</td>
+<td title="Message">HHH000108: Foreign keys: [fk1aae1082a3b371e0, fk1aae1082bf95b68d]</td>
 </tr>
 
 <tr>
-<td>5327</td>
+<td>1615</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000126: Indexes: [pk__tresourc__3214ec275fd33367]</td>
+<td title="Message">HHH000126: Indexes: [primary, fk1aae1082a3b371e0, fk1aae1082bf95b68d]</td>
 </tr>
 
 <tr>
-<td>5339</td>
+<td>1624</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000261: Table found: nszjjythDemo.dbo.tresourcetype</td>
+<td title="Message">HHH000261: Table found: mysqldemo.tresourcetype</td>
 </tr>
 
 <tr>
-<td>5339</td>
+<td>1625</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
@@ -279,7 +271,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>5339</td>
+<td>1625</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
@@ -287,23 +279,23 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>5339</td>
+<td>1625</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000126: Indexes: [pk__tresourc__3214ec2763a3c44b]</td>
+<td title="Message">HHH000126: Indexes: [primary]</td>
 </tr>
 
 <tr>
-<td>5359</td>
+<td>1635</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000261: Table found: nszjjythDemo.dbo.trole</td>
+<td title="Message">HHH000261: Table found: mysqldemo.trole</td>
 </tr>
 
 <tr>
-<td>5359</td>
+<td>1635</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
@@ -311,31 +303,31 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>5359</td>
+<td>1635</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000108: Foreign keys: [fk_3qq9eyhwbhblv83lt270gxbik]</td>
+<td title="Message">HHH000108: Foreign keys: [fk69826ea70bc69c8]</td>
 </tr>
 
 <tr>
-<td>5359</td>
+<td>1635</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000126: Indexes: [pk__trole__3214ec276774552f]</td>
+<td title="Message">HHH000126: Indexes: [fk69826ea70bc69c8, primary]</td>
 </tr>
 
 <tr>
-<td>6828</td>
+<td>1644</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000261: Table found: nszjjythDemo.dbo.trole_tresource</td>
+<td title="Message">HHH000261: Table found: mysqldemo.trole_tresource</td>
 </tr>
 
 <tr>
-<td>6828</td>
+<td>1644</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
@@ -343,31 +335,31 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>6829</td>
+<td>1644</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000108: Foreign keys: [fk_aunc1ssqh18meky8cxl48i4m9, fk_18oms8g4ib4h67dqx0f3fwaed]</td>
+<td title="Message">HHH000108: Foreign keys: [fk761b156d69c63a4d, fk761b156dd4d4a2cd]</td>
 </tr>
 
 <tr>
-<td>6829</td>
+<td>1644</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000126: Indexes: [pk__trole_tr__568b284e6b44e613]</td>
+<td title="Message">HHH000126: Indexes: [fk761b156d69c63a4d, primary, fk761b156dd4d4a2cd]</td>
 </tr>
 
 <tr>
-<td>6851</td>
+<td>1653</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000261: Table found: nszjjythDemo.dbo.tuser</td>
+<td title="Message">HHH000261: Table found: mysqldemo.tuser</td>
 </tr>
 
 <tr>
-<td>6851</td>
+<td>1653</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
@@ -375,7 +367,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>6851</td>
+<td>1653</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
@@ -383,23 +375,23 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>6852</td>
+<td>1653</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000126: Indexes: [uk_doflky41g81kf7ydx6y0a99nm, pk__tuser__3214ec276f1576f7]</td>
+<td title="Message">HHH000126: Indexes: [name, primary]</td>
 </tr>
 
 <tr>
-<td>6893</td>
+<td>1661</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000261: Table found: nszjjythDemo.dbo.tuser_trole</td>
+<td title="Message">HHH000261: Table found: mysqldemo.tuser_trole</td>
 </tr>
 
 <tr>
-<td>6893</td>
+<td>1661</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
@@ -407,23 +399,23 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>6893</td>
+<td>1661</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000108: Foreign keys: [fk_mipcojqd9xymdghov18fobf7e, fk_30t0khk63muiwisjpp0h7e57l]</td>
+<td title="Message">HHH000108: Foreign keys: [fkeb0130ead4d4a2cd, fkeb0130ea79ff66ad]</td>
 </tr>
 
 <tr>
-<td>6894</td>
+<td>1661</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.TableMetadata category">org.hibernate.tool.hbm2ddl.TableMetadata</td>
-<td title="Message">HHH000126: Indexes: [pk__tuser_tr__cb5ed50d72e607db]</td>
+<td title="Message">HHH000126: Indexes: [fkeb0130ead4d4a2cd, primary, fkeb0130ea79ff66ad]</td>
 </tr>
 
 <tr>
-<td>6894</td>
+<td>1662</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.hibernate.tool.hbm2ddl.SchemaUpdate category">org.hibernate.tool.hbm2ddl.SchemaUpdate</td>
@@ -431,12 +423,12 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>6987</td>
+<td>1743</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="org.springframework.orm.hibernate4.HibernateTransactionManager category">org.springframework.orm.hibernate4.HibernateTransactionManager</td>
 <td title="Message">Using DataSource [{
-	CreateTime:&quot;2017-02-09 01:37:00&quot;,
+	CreateTime:&quot;2021-03-09 15:55:50&quot;,
 	ActiveCount:0,
 	PoolingCount:1,
 	CreateCount:1,
@@ -444,13 +436,13 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 	CloseCount:2,
 	ConnectCount:2,
 	Connections:[
-		{ID:426407360, ConnectTime:&quot;2017-02-09 01:37:02&quot;, UseCount:2, LastActiveTime:&quot;2017-02-09 01:37:06&quot;}
+		{ID:1325056690, ConnectTime:&quot;2021-03-09 15:55:50&quot;, UseCount:2, LastActiveTime:&quot;2021-03-09 15:55:51&quot;}
 	]
 }] of Hibernate SessionFactory for HibernateTransactionManager</td>
 </tr>
 
 <tr>
-<td>7148</td>
+<td>1871</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -458,7 +450,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7244</td>
+<td>1890</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -466,7 +458,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7245</td>
+<td>1891</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -474,7 +466,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7248</td>
+<td>1892</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -482,7 +474,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7251</td>
+<td>1894</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -490,7 +482,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7254</td>
+<td>1896</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -498,7 +490,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7255</td>
+<td>1897</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -506,7 +498,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7257</td>
+<td>1899</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -514,7 +506,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7258</td>
+<td>1900</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -522,7 +514,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7259</td>
+<td>1901</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -530,7 +522,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7261</td>
+<td>1903</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -538,7 +530,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7262</td>
+<td>1904</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -546,7 +538,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7263</td>
+<td>1905</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -554,7 +546,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7264</td>
+<td>1906</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -562,7 +554,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7265</td>
+<td>1907</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -570,7 +562,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7266</td>
+<td>1909</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -578,7 +570,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7268</td>
+<td>1910</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -586,7 +578,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7269</td>
+<td>1911</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -594,7 +586,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7270</td>
+<td>1913</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -602,7 +594,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7271</td>
+<td>1914</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -610,7 +602,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7273</td>
+<td>1916</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -618,7 +610,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7274</td>
+<td>1917</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -626,7 +618,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7275</td>
+<td>1919</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -634,7 +626,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7276</td>
+<td>1920</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -642,7 +634,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7277</td>
+<td>1921</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -650,7 +642,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7278</td>
+<td>1923</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -658,7 +650,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7279</td>
+<td>1924</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -666,7 +658,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7280</td>
+<td>1925</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -674,7 +666,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7281</td>
+<td>1926</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -682,7 +674,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7282</td>
+<td>1928</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -690,7 +682,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7283</td>
+<td>1929</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -698,7 +690,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7284</td>
+<td>1930</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -706,7 +698,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7285</td>
+<td>1931</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -714,7 +706,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7286</td>
+<td>1933</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -722,7 +714,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7287</td>
+<td>1934</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -730,7 +722,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7288</td>
+<td>1935</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -738,7 +730,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7289</td>
+<td>1936</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -746,7 +738,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7290</td>
+<td>1937</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -754,7 +746,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7290</td>
+<td>1938</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -762,7 +754,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7291</td>
+<td>1939</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -770,7 +762,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7292</td>
+<td>1941</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -778,7 +770,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7293</td>
+<td>1942</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -786,7 +778,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7294</td>
+<td>1943</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -794,7 +786,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7295</td>
+<td>1944</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -802,7 +794,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7295</td>
+<td>1945</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -810,7 +802,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7296</td>
+<td>1946</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -818,7 +810,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7297</td>
+<td>1947</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -826,7 +818,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7298</td>
+<td>1948</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -834,7 +826,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7299</td>
+<td>1949</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -842,7 +834,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7383</td>
+<td>2023</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -850,7 +842,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7412</td>
+<td>2025</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -858,7 +850,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7413</td>
+<td>2026</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -866,7 +858,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7414</td>
+<td>2027</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -874,7 +866,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7414</td>
+<td>2028</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -882,7 +874,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7415</td>
+<td>2028</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -890,7 +882,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7416</td>
+<td>2029</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -898,7 +890,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7416</td>
+<td>2030</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -906,7 +898,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7417</td>
+<td>2030</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -914,7 +906,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7417</td>
+<td>2030</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -922,7 +914,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7418</td>
+<td>2031</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -930,7 +922,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7418</td>
+<td>2031</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -938,7 +930,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7419</td>
+<td>2032</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -946,7 +938,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7419</td>
+<td>2033</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -954,7 +946,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7420</td>
+<td>2033</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -962,7 +954,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7421</td>
+<td>2034</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -970,7 +962,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7421</td>
+<td>2034</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -978,7 +970,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7422</td>
+<td>2035</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -986,7 +978,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7423</td>
+<td>2036</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -994,7 +986,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7423</td>
+<td>2036</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1002,7 +994,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7424</td>
+<td>2037</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1010,7 +1002,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7424</td>
+<td>2037</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1018,7 +1010,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7425</td>
+<td>2038</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1026,7 +1018,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7425</td>
+<td>2038</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1034,7 +1026,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7426</td>
+<td>2039</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1042,7 +1034,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7426</td>
+<td>2040</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1050,7 +1042,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7427</td>
+<td>2040</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1058,7 +1050,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7428</td>
+<td>2041</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1066,7 +1058,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7428</td>
+<td>2041</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1074,7 +1066,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7429</td>
+<td>2042</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1082,7 +1074,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7429</td>
+<td>2042</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1090,7 +1082,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7430</td>
+<td>2043</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1098,7 +1090,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7430</td>
+<td>2044</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1106,7 +1098,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7431</td>
+<td>2044</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1114,7 +1106,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7431</td>
+<td>2045</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1122,7 +1114,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7432</td>
+<td>2045</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1130,7 +1122,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7433</td>
+<td>2046</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1138,7 +1130,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7433</td>
+<td>2047</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1146,7 +1138,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7434</td>
+<td>2047</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1154,7 +1146,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7434</td>
+<td>2048</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1162,7 +1154,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7435</td>
+<td>2048</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1170,7 +1162,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7435</td>
+<td>2049</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1178,7 +1170,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7436</td>
+<td>2049</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1186,7 +1178,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7437</td>
+<td>2050</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1194,7 +1186,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7437</td>
+<td>2051</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1202,7 +1194,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7460</td>
+<td>2058</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1210,7 +1202,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7478</td>
+<td>2068</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1218,7 +1210,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7486</td>
+<td>2074</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1226,7 +1218,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7495</td>
+<td>2081</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1234,7 +1226,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7502</td>
+<td>2087</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1242,7 +1234,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7511</td>
+<td>2093</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1250,7 +1242,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7520</td>
+<td>2100</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1258,7 +1250,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7544</td>
+<td>2120</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1266,7 +1258,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7546</td>
+<td>2120</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1274,7 +1266,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7548</td>
+<td>2121</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1282,7 +1274,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7548</td>
+<td>2122</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1290,7 +1282,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7549</td>
+<td>2122</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1298,7 +1290,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7549</td>
+<td>2123</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1306,7 +1298,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7550</td>
+<td>2124</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1314,7 +1306,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7551</td>
+<td>2125</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1322,7 +1314,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7552</td>
+<td>2125</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1330,7 +1322,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7552</td>
+<td>2126</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1338,7 +1330,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7553</td>
+<td>2127</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1346,7 +1338,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7553</td>
+<td>2127</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1354,7 +1346,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7554</td>
+<td>2128</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1362,7 +1354,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7555</td>
+<td>2129</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1370,7 +1362,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7556</td>
+<td>2129</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1378,7 +1370,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7557</td>
+<td>2130</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1386,7 +1378,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7558</td>
+<td>2130</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1394,7 +1386,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7559</td>
+<td>2131</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1402,7 +1394,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7560</td>
+<td>2132</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1410,7 +1402,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7560</td>
+<td>2132</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1418,7 +1410,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7561</td>
+<td>2133</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1426,7 +1418,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7562</td>
+<td>2133</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1434,135 +1426,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7562</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - chart</td>
-</tr>
-
-<tr>
-<td>7565</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7566</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglDelete</td>
-</tr>
-
-<tr>
-<td>7567</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7567</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglAddPage</td>
-</tr>
-
-<tr>
-<td>7567</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7568</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglDelete</td>
-</tr>
-
-<tr>
-<td>7568</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7569</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglEditPage</td>
-</tr>
-
-<tr>
-<td>7569</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7570</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - sjygl</td>
-</tr>
-
-<tr>
-<td>7570</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7571</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - b622dbdc-7fa4-460e-b1d5-f6c30e8bff77</td>
-</tr>
-
-<tr>
-<td>7571</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7572</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglAdd</td>
-</tr>
-
-<tr>
-<td>7572</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7573</td>
+<td>2134</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1570,7 +1434,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7573</td>
+<td>2134</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1578,31 +1442,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7573</td>
+<td>2135</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - xtgl</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglAddPage</td>
 </tr>
 
 <tr>
-<td>7574</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7574</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglAdd</td>
-</tr>
-
-<tr>
-<td>7575</td>
+<td>2135</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -1610,455 +1458,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7575</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - userCreateDatetimeChart</td>
-</tr>
-
-<tr>
-<td>7576</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7576</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jeasyuiApi</td>
-</tr>
-
-<tr>
-<td>7577</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7577</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglDateGrid</td>
-</tr>
-
-<tr>
-<td>7578</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7578</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglEditPage</td>
-</tr>
-
-<tr>
-<td>7578</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7579</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglEditPage</td>
-</tr>
-
-<tr>
-<td>7579</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7579</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglBatchDelete</td>
-</tr>
-
-<tr>
-<td>7580</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7580</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglMenu</td>
-</tr>
-
-<tr>
-<td>7581</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7581</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglDateGrid</td>
-</tr>
-
-<tr>
-<td>7582</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7582</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglEdit</td>
-</tr>
-
-<tr>
-<td>7582</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7582</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglEdit</td>
-</tr>
-
-<tr>
-<td>7583</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7583</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglView</td>
-</tr>
-
-<tr>
-<td>7584</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7584</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsgl</td>
-</tr>
-
-<tr>
-<td>7584</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7585</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - wjglView</td>
-</tr>
-
-<tr>
-<td>7585</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7585</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglGrantPage</td>
-</tr>
-
-<tr>
-<td>7586</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7586</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zygl</td>
-</tr>
-
-<tr>
-<td>7587</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7587</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglGrant</td>
-</tr>
-
-<tr>
-<td>7587</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7588</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglTreeGrid</td>
-</tr>
-
-<tr>
-<td>7588</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7588</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglAddPage</td>
-</tr>
-
-<tr>
-<td>7589</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7589</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhgl</td>
-</tr>
-
-<tr>
-<td>7590</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7590</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - dedaedf0-5183-4e6d-92bb-34cdd273a2ad</td>
-</tr>
-
-<tr>
-<td>7590</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7591</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - buggl</td>
-</tr>
-
-<tr>
-<td>7591</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7592</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - wjgl</td>
-</tr>
-
-<tr>
-<td>7592</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7593</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglGrant</td>
-</tr>
-
-<tr>
-<td>7593</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7593</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglAddPage</td>
-</tr>
-
-<tr>
-<td>7594</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7594</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglDelete</td>
-</tr>
-
-<tr>
-<td>7595</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7595</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglEdit</td>
-</tr>
-
-<tr>
-<td>7596</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7596</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglEditPwd</td>
-</tr>
-
-<tr>
-<td>7596</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7597</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglAddPage</td>
-</tr>
-
-<tr>
-<td>7597</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7598</td>
+<td>2135</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -2066,7 +1466,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7598</td>
+<td>2136</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -2074,103 +1474,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7598</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglEditPage</td>
-</tr>
-
-<tr>
-<td>7599</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7599</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglGrantPage</td>
-</tr>
-
-<tr>
-<td>7599</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7600</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglEditPwdPage</td>
-</tr>
-
-<tr>
-<td>7600</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7600</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglEdit</td>
-</tr>
-
-<tr>
-<td>7601</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7601</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglAdd</td>
-</tr>
-
-<tr>
-<td>7601</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7602</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglDelete</td>
-</tr>
-
-<tr>
-<td>7602</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7602</td>
+<td>2136</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -2178,127 +1482,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7603</td>
+<td>2137</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
 </tr>
 
 <tr>
-<td>7603</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglAddPage</td>
-</tr>
-
-<tr>
-<td>7604</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
-</tr>
-
-<tr>
-<td>7604</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zygl</td>
-</tr>
-
-<tr>
-<td>7604</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
-</tr>
-
-<tr>
-<td>7604</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglDelete</td>
-</tr>
-
-<tr>
-<td>7605</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
-</tr>
-
-<tr>
-<td>7605</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglEditPage</td>
-</tr>
-
-<tr>
-<td>7606</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
-</tr>
-
-<tr>
-<td>7606</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglAdd</td>
-</tr>
-
-<tr>
-<td>7606</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
-</tr>
-
-<tr>
-<td>7606</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglTreeGrid</td>
-</tr>
-
-<tr>
-<td>7607</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
-</tr>
-
-<tr>
-<td>7607</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglMenu</td>
-</tr>
-
-<tr>
-<td>7608</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
-</tr>
-
-<tr>
-<td>7608</td>
+<td>2137</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -2306,207 +1498,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7608</td>
+<td>2138</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
 </tr>
 
 <tr>
-<td>7608</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglGrant</td>
-</tr>
-
-<tr>
-<td>7609</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
-</tr>
-
-<tr>
-<td>7609</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglAddPage</td>
-</tr>
-
-<tr>
-<td>7610</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
-</tr>
-
-<tr>
-<td>7610</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglDelete</td>
-</tr>
-
-<tr>
-<td>7610</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
-</tr>
-
-<tr>
-<td>7611</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglEdit</td>
-</tr>
-
-<tr>
-<td>7611</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
-</tr>
-
-<tr>
-<td>7611</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglTreeGrid</td>
-</tr>
-
-<tr>
-<td>7612</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
-</tr>
-
-<tr>
-<td>7612</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglEditPage</td>
-</tr>
-
-<tr>
-<td>7612</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
-</tr>
-
-<tr>
-<td>7613</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglAdd</td>
-</tr>
-
-<tr>
-<td>7613</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
-</tr>
-
-<tr>
-<td>7613</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsgl</td>
-</tr>
-
-<tr>
-<td>7614</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
-</tr>
-
-<tr>
-<td>7614</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglGrantPage</td>
-</tr>
-
-<tr>
-<td>7615</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
-</tr>
-
-<tr>
-<td>7615</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglDelete</td>
-</tr>
-
-<tr>
-<td>7616</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
-</tr>
-
-<tr>
-<td>7616</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglGrant</td>
-</tr>
-
-<tr>
-<td>7616</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
-</tr>
-
-<tr>
-<td>7616</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglEditPwd</td>
-</tr>
-
-<tr>
-<td>7617</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
-</tr>
-
-<tr>
-<td>7617</td>
+<td>2138</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -2514,79 +1514,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7618</td>
+<td>2139</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
 </tr>
 
 <tr>
-<td>7618</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglEditPwdPage</td>
-</tr>
-
-<tr>
-<td>7618</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
-</tr>
-
-<tr>
-<td>7618</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglEditPage</td>
-</tr>
-
-<tr>
-<td>7619</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
-</tr>
-
-<tr>
-<td>7619</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglBatchDelete</td>
-</tr>
-
-<tr>
-<td>7620</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
-</tr>
-
-<tr>
-<td>7620</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglDateGrid</td>
-</tr>
-
-<tr>
-<td>7620</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
-</tr>
-
-<tr>
-<td>7620</td>
+<td>2139</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -2594,271 +1530,47 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7621</td>
+<td>2140</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
 </tr>
 
 <tr>
-<td>7621</td>
+<td>2140</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhgl</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - userCreateDatetimeChart</td>
 </tr>
 
 <tr>
-<td>7622</td>
+<td>2140</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
 </tr>
 
 <tr>
-<td>7622</td>
+<td>2141</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglAdd</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglEditPage</td>
 </tr>
 
 <tr>
-<td>7622</td>
+<td>2141</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
 </tr>
 
 <tr>
-<td>7623</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhglEdit</td>
-</tr>
-
-<tr>
-<td>7623</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - sjyAdmin</td>
-</tr>
-
-<tr>
-<td>7623</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - sjygl</td>
-</tr>
-
-<tr>
-<td>7624</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
-</tr>
-
-<tr>
-<td>7624</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglDateGrid</td>
-</tr>
-
-<tr>
-<td>7625</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
-</tr>
-
-<tr>
-<td>7625</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglAddPage</td>
-</tr>
-
-<tr>
-<td>7625</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
-</tr>
-
-<tr>
-<td>7626</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglEditPage</td>
-</tr>
-
-<tr>
-<td>7626</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
-</tr>
-
-<tr>
-<td>7626</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglEdit</td>
-</tr>
-
-<tr>
-<td>7627</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
-</tr>
-
-<tr>
-<td>7627</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglAdd</td>
-</tr>
-
-<tr>
-<td>7627</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
-</tr>
-
-<tr>
-<td>7628</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglDelete</td>
-</tr>
-
-<tr>
-<td>7628</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
-</tr>
-
-<tr>
-<td>7628</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - bugglView</td>
-</tr>
-
-<tr>
-<td>7629</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
-</tr>
-
-<tr>
-<td>7629</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - buggl</td>
-</tr>
-
-<tr>
-<td>7629</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
-</tr>
-
-<tr>
-<td>7630</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jeasyuiApi</td>
-</tr>
-
-<tr>
-<td>7630</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
-</tr>
-
-<tr>
-<td>7630</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zygl</td>
-</tr>
-
-<tr>
-<td>7631</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
-</tr>
-
-<tr>
-<td>7631</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsglTreeGrid</td>
-</tr>
-
-<tr>
-<td>7631</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
-</tr>
-
-<tr>
-<td>7632</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyglTreeGrid</td>
-</tr>
-
-<tr>
-<td>7632</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
-</tr>
-
-<tr>
-<td>7632</td>
+<td>2141</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -2866,15 +1578,255 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7633</td>
+<td>2142</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
 </tr>
 
 <tr>
-<td>7633</td>
+<td>2142</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglDelete</td>
+</tr>
+
+<tr>
+<td>2143</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2143</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglBatchDelete</td>
+</tr>
+
+<tr>
+<td>2143</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2143</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - buggl</td>
+</tr>
+
+<tr>
+<td>2144</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2144</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglGrant</td>
+</tr>
+
+<tr>
+<td>2145</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2145</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jeasyuiApi</td>
+</tr>
+
+<tr>
+<td>2145</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2146</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglEditPwd</td>
+</tr>
+
+<tr>
+<td>2146</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2146</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglDateGrid</td>
+</tr>
+
+<tr>
+<td>2147</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2147</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglEdit</td>
+</tr>
+
+<tr>
+<td>2148</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2148</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglView</td>
+</tr>
+
+<tr>
+<td>2148</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2148</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglDelete</td>
+</tr>
+
+<tr>
+<td>2149</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2149</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglEdit</td>
+</tr>
+
+<tr>
+<td>2150</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2150</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglTreeGrid</td>
+</tr>
+
+<tr>
+<td>2150</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2150</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglDelete</td>
+</tr>
+
+<tr>
+<td>2151</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2151</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglMenu</td>
+</tr>
+
+<tr>
+<td>2152</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2152</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglAdd</td>
+</tr>
+
+<tr>
+<td>2152</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2152</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -2882,31 +1834,95 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7634</td>
+<td>2153</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
 </tr>
 
 <tr>
-<td>7634</td>
+<td>2153</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - yhgl</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglEditPage</td>
 </tr>
 
 <tr>
-<td>7634</td>
+<td>2154</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
 </tr>
 
 <tr>
-<td>7634</td>
+<td>2154</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglEditPage</td>
+</tr>
+
+<tr>
+<td>2154</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2155</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglDelete</td>
+</tr>
+
+<tr>
+<td>2155</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2155</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglEditPage</td>
+</tr>
+
+<tr>
+<td>2156</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2156</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglAddPage</td>
+</tr>
+
+<tr>
+<td>2156</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2157</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -2914,7 +1930,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7635</td>
+<td>2157</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -2922,55 +1938,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7638</td>
+<td>2157</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 1</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglEdit</td>
 </tr>
 
 <tr>
-<td>7639</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 2</td>
-</tr>
-
-<tr>
-<td>7639</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 3</td>
-</tr>
-
-<tr>
-<td>7640</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 4</td>
-</tr>
-
-<tr>
-<td>7641</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 5</td>
-</tr>
-
-<tr>
-<td>7641</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
-</tr>
-
-<tr>
-<td>7644</td>
+<td>2158</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -2978,47 +1954,799 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7677</td>
+<td>2158</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 1</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglAddPage</td>
 </tr>
 
 <tr>
-<td>7686</td>
+<td>2159</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 2</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
 </tr>
 
 <tr>
-<td>7693</td>
+<td>2159</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 3</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglGrantPage</td>
 </tr>
 
 <tr>
-<td>7699</td>
+<td>2159</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 4</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
 </tr>
 
 <tr>
-<td>7706</td>
+<td>2159</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 5</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - wjgl</td>
 </tr>
 
 <tr>
-<td>7712</td>
+<td>2160</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2160</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zygl</td>
+</tr>
+
+<tr>
+<td>2161</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2161</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - chart</td>
+</tr>
+
+<tr>
+<td>2161</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2161</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglGrant</td>
+</tr>
+
+<tr>
+<td>2162</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2162</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - sjygl</td>
+</tr>
+
+<tr>
+<td>2163</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2163</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglEditPwdPage</td>
+</tr>
+
+<tr>
+<td>2163</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2164</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglAdd</td>
+</tr>
+
+<tr>
+<td>2164</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2164</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhgl</td>
+</tr>
+
+<tr>
+<td>2165</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2165</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglAdd</td>
+</tr>
+
+<tr>
+<td>2165</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2166</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - wjglView</td>
+</tr>
+
+<tr>
+<td>2166</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
+</tr>
+
+<tr>
+<td>2166</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglTreeGrid</td>
+</tr>
+
+<tr>
+<td>2167</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
+</tr>
+
+<tr>
+<td>2167</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zygl</td>
+</tr>
+
+<tr>
+<td>2168</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
+</tr>
+
+<tr>
+<td>2168</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglMenu</td>
+</tr>
+
+<tr>
+<td>2168</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
+</tr>
+
+<tr>
+<td>2168</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglDelete</td>
+</tr>
+
+<tr>
+<td>2169</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
+</tr>
+
+<tr>
+<td>2169</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglAddPage</td>
+</tr>
+
+<tr>
+<td>2170</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
+</tr>
+
+<tr>
+<td>2170</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglEditPage</td>
+</tr>
+
+<tr>
+<td>2171</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
+</tr>
+
+<tr>
+<td>2171</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglAdd</td>
+</tr>
+
+<tr>
+<td>2171</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - zyAdmin</td>
+</tr>
+
+<tr>
+<td>2171</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglEdit</td>
+</tr>
+
+<tr>
+<td>2172</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
+</tr>
+
+<tr>
+<td>2172</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglTreeGrid</td>
+</tr>
+
+<tr>
+<td>2173</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
+</tr>
+
+<tr>
+<td>2173</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglGrantPage</td>
+</tr>
+
+<tr>
+<td>2173</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
+</tr>
+
+<tr>
+<td>2173</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglEditPage</td>
+</tr>
+
+<tr>
+<td>2174</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
+</tr>
+
+<tr>
+<td>2174</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglGrant</td>
+</tr>
+
+<tr>
+<td>2174</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
+</tr>
+
+<tr>
+<td>2175</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglAddPage</td>
+</tr>
+
+<tr>
+<td>2175</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
+</tr>
+
+<tr>
+<td>2175</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsgl</td>
+</tr>
+
+<tr>
+<td>2176</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
+</tr>
+
+<tr>
+<td>2176</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglAdd</td>
+</tr>
+
+<tr>
+<td>2176</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
+</tr>
+
+<tr>
+<td>2177</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglEdit</td>
+</tr>
+
+<tr>
+<td>2177</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - jsAdmin</td>
+</tr>
+
+<tr>
+<td>2177</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglDelete</td>
+</tr>
+
+<tr>
+<td>2178</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+</tr>
+
+<tr>
+<td>2179</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglGrantPage</td>
+</tr>
+
+<tr>
+<td>2180</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+</tr>
+
+<tr>
+<td>2180</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglAddPage</td>
+</tr>
+
+<tr>
+<td>2181</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+</tr>
+
+<tr>
+<td>2181</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglEditPage</td>
+</tr>
+
+<tr>
+<td>2182</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+</tr>
+
+<tr>
+<td>2182</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglDateGrid</td>
+</tr>
+
+<tr>
+<td>2183</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+</tr>
+
+<tr>
+<td>2183</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglBatchDelete</td>
+</tr>
+
+<tr>
+<td>2184</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+</tr>
+
+<tr>
+<td>2184</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglGrant</td>
+</tr>
+
+<tr>
+<td>2185</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+</tr>
+
+<tr>
+<td>2185</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglDelete</td>
+</tr>
+
+<tr>
+<td>2186</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+</tr>
+
+<tr>
+<td>2188</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglEditPwdPage</td>
+</tr>
+
+<tr>
+<td>2189</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+</tr>
+
+<tr>
+<td>2189</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhgl</td>
+</tr>
+
+<tr>
+<td>2190</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+</tr>
+
+<tr>
+<td>2190</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglEditPwd</td>
+</tr>
+
+<tr>
+<td>2191</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+</tr>
+
+<tr>
+<td>2191</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglAdd</td>
+</tr>
+
+<tr>
+<td>2191</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - yhAdmin</td>
+</tr>
+
+<tr>
+<td>2191</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglEdit</td>
+</tr>
+
+<tr>
+<td>2192</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - sjyAdmin</td>
+</tr>
+
+<tr>
+<td>2192</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - sjygl</td>
+</tr>
+
+<tr>
+<td>2193</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
+</tr>
+
+<tr>
+<td>2193</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglAddPage</td>
+</tr>
+
+<tr>
+<td>2194</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
+</tr>
+
+<tr>
+<td>2194</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglEdit</td>
+</tr>
+
+<tr>
+<td>2194</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
+</tr>
+
+<tr>
+<td>2195</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglDelete</td>
+</tr>
+
+<tr>
+<td>2195</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
+</tr>
+
+<tr>
+<td>2195</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglAdd</td>
+</tr>
+
+<tr>
+<td>2196</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
+</tr>
+
+<tr>
+<td>2196</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - buggl</td>
+</tr>
+
+<tr>
+<td>2196</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
+</tr>
+
+<tr>
+<td>2197</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglEditPage</td>
+</tr>
+
+<tr>
+<td>2197</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
+</tr>
+
+<tr>
+<td>2197</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglDateGrid</td>
+</tr>
+
+<tr>
+<td>2198</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - bugAdmin</td>
+</tr>
+
+<tr>
+<td>2198</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - bugglView</td>
+</tr>
+
+<tr>
+<td>2199</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3026,15 +2754,247 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7716</td>
+<td>2199</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [TIMESTAMP] - Thu Feb 09 01:37:07 CST 2017</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyglTreeGrid</td>
 </tr>
 
 <tr>
-<td>7716</td>
+<td>2199</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
+</tr>
+
+<tr>
+<td>2199</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsglTreeGrid</td>
+</tr>
+
+<tr>
+<td>2200</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
+</tr>
+
+<tr>
+<td>2200</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zygl</td>
+</tr>
+
+<tr>
+<td>2200</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
+</tr>
+
+<tr>
+<td>2201</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhglDateGrid</td>
+</tr>
+
+<tr>
+<td>2201</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
+</tr>
+
+<tr>
+<td>2201</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - xtgl</td>
+</tr>
+
+<tr>
+<td>2202</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
+</tr>
+
+<tr>
+<td>2202</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jeasyuiApi</td>
+</tr>
+
+<tr>
+<td>2203</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
+</tr>
+
+<tr>
+<td>2203</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsgl</td>
+</tr>
+
+<tr>
+<td>2203</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
+</tr>
+
+<tr>
+<td>2204</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - yhgl</td>
+</tr>
+
+<tr>
+<td>2204</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2205</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 1</td>
+</tr>
+
+<tr>
+<td>2205</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 2</td>
+</tr>
+
+<tr>
+<td>2206</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 3</td>
+</tr>
+
+<tr>
+<td>2206</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 4</td>
+</tr>
+
+<tr>
+<td>2207</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 5</td>
+</tr>
+
+<tr>
+<td>2208</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
+</tr>
+
+<tr>
+<td>2209</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2217</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 1</td>
+</tr>
+
+<tr>
+<td>2222</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 2</td>
+</tr>
+
+<tr>
+<td>2228</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 3</td>
+</tr>
+
+<tr>
+<td>2234</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 4</td>
+</tr>
+
+<tr>
+<td>2241</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 5</td>
+</tr>
+
+<tr>
+<td>2246</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - guest</td>
+</tr>
+
+<tr>
+<td>2250</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:51 CST 2021</td>
+</tr>
+
+<tr>
+<td>2251</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3042,7 +3002,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7716</td>
+<td>2251</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3050,7 +3010,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7717</td>
+<td>2251</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3058,15 +3018,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7719</td>
+<td>2252</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [TIMESTAMP] - Thu Feb 09 01:37:07 CST 2017</td>
+<td title="Message">binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:52 CST 2021</td>
 </tr>
 
 <tr>
-<td>7720</td>
+<td>2252</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3074,7 +3034,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7720</td>
+<td>2252</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3082,7 +3042,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7720</td>
+<td>2253</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3090,15 +3050,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7721</td>
+<td>2253</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [TIMESTAMP] - Thu Feb 09 01:37:07 CST 2017</td>
+<td title="Message">binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:52 CST 2021</td>
 </tr>
 
 <tr>
-<td>7721</td>
+<td>2253</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3106,7 +3066,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7721</td>
+<td>2254</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3114,7 +3074,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7722</td>
+<td>2254</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3122,15 +3082,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7722</td>
+<td>2254</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [TIMESTAMP] - Thu Feb 09 01:37:07 CST 2017</td>
+<td title="Message">binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:52 CST 2021</td>
 </tr>
 
 <tr>
-<td>7723</td>
+<td>2254</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3138,7 +3098,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7723</td>
+<td>2255</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3146,7 +3106,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7723</td>
+<td>2255</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3154,15 +3114,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7724</td>
+<td>2255</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [TIMESTAMP] - Thu Feb 09 01:37:07 CST 2017</td>
+<td title="Message">binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:52 CST 2021</td>
 </tr>
 
 <tr>
-<td>7724</td>
+<td>2255</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3170,7 +3130,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7724</td>
+<td>2256</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3178,7 +3138,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7724</td>
+<td>2256</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3186,15 +3146,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7725</td>
+<td>2256</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [TIMESTAMP] - Thu Feb 09 01:37:07 CST 2017</td>
+<td title="Message">binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:52 CST 2021</td>
 </tr>
 
 <tr>
-<td>7725</td>
+<td>2257</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3202,7 +3162,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7725</td>
+<td>2257</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3210,7 +3170,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7726</td>
+<td>2257</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3218,15 +3178,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7726</td>
+<td>2257</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [TIMESTAMP] - Thu Feb 09 01:37:07 CST 2017</td>
+<td title="Message">binding parameter [1] as [TIMESTAMP] - Tue Mar 09 15:55:52 CST 2021</td>
 </tr>
 
 <tr>
-<td>7727</td>
+<td>2258</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3234,7 +3194,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7727</td>
+<td>2258</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3242,7 +3202,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7727</td>
+<td>2258</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3250,7 +3210,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7728</td>
+<td>2258</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3258,23 +3218,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7728</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - zyAdmin</td>
-</tr>
-
-<tr>
-<td>7730</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7730</td>
+<td>2259</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3282,7 +3226,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7730</td>
+<td>2259</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3290,7 +3234,39 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7731</td>
+<td>2259</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - sjyAdmin</td>
+</tr>
+
+<tr>
+<td>2260</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2260</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - jsAdmin</td>
+</tr>
+
+<tr>
+<td>2260</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
+</tr>
+
+<tr>
+<td>2260</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3298,7 +3274,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7731</td>
+<td>2261</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3306,7 +3282,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7732</td>
+<td>2261</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3314,7 +3290,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7732</td>
+<td>2262</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3322,39 +3298,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7732</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - jsAdmin</td>
-</tr>
-
-<tr>
-<td>7733</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7733</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [2] as [VARCHAR] - sjyAdmin</td>
-</tr>
-
-<tr>
-<td>7734</td>
-<td title="main thread">main</td>
-<td title="Level">TRACE</td>
-<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
-</tr>
-
-<tr>
-<td>7734</td>
+<td>2262</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3362,15 +3306,15 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7735</td>
+<td>2262</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
-<td title="Message">binding parameter [1] as [VARCHAR] - 1</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 0</td>
 </tr>
 
 <tr>
-<td>7735</td>
+<td>2262</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3378,7 +3322,23 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7736</td>
+<td>2263</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [1] as [VARCHAR] - 1</td>
+</tr>
+
+<tr>
+<td>2263</td>
+<td title="main thread">main</td>
+<td title="Level">TRACE</td>
+<td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
+<td title="Message">binding parameter [2] as [VARCHAR] - zyAdmin</td>
+</tr>
+
+<tr>
+<td>2264</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3386,7 +3346,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7736</td>
+<td>2264</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3394,7 +3354,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7736</td>
+<td>2264</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3402,7 +3362,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7737</td>
+<td>2264</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3410,7 +3370,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7738</td>
+<td>2265</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3418,7 +3378,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7738</td>
+<td>2265</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3426,7 +3386,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7739</td>
+<td>2266</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3434,7 +3394,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7739</td>
+<td>2266</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3442,7 +3402,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7740</td>
+<td>2266</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3450,7 +3410,7 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7740</td>
+<td>2267</td>
 <td title="main thread">main</td>
 <td title="Level">TRACE</td>
 <td title="org.hibernate.type.descriptor.sql.BasicBinder category">org.hibernate.type.descriptor.sql.BasicBinder</td>
@@ -3458,23 +3418,23 @@ Log session start time Thu Feb 09 01:36:59 CST 2017<br>
 </tr>
 
 <tr>
-<td>7746</td>
+<td>2280</td>
 <td title="Thread-1 thread">Thread-1</td>
 <td title="Level">INFO</td>
 <td title="org.springframework.context.support.GenericApplicationContext category">org.springframework.context.support.GenericApplicationContext</td>
-<td title="Message">Closing org.springframework.context.support.GenericApplicationContext@6083dc9b: startup date [Thu Feb 09 01:37:00 CST 2017]; root of context hierarchy</td>
+<td title="Message">Closing org.springframework.context.support.GenericApplicationContext@9317bfb: startup date [Tue Mar 09 15:55:50 CST 2021]; root of context hierarchy</td>
 </tr>
 
 <tr>
-<td>7747</td>
+<td>2281</td>
 <td title="Thread-1 thread">Thread-1</td>
 <td title="Level">INFO</td>
 <td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
-<td title="Message">Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25496f80: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,baseDaoImpl,bugDaoImpl,bugTypeDaoImpl,resourceDaoImpl,resourceTypeDaoImpl,roleDaoImpl,userDaoImpl,bugServiceImpl,bugTypeServiceImpl,initServiceImpl,resourceServiceImpl,resourceTypeServiceImpl,roleServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy</td>
+<td title="Message">Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4f7c2b90: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,baseDaoImpl,bugDaoImpl,bugTypeDaoImpl,resourceDaoImpl,resourceTypeDaoImpl,roleDaoImpl,userDaoImpl,bugServiceImpl,bugTypeServiceImpl,initServiceImpl,resourceServiceImpl,resourceTypeServiceImpl,roleServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,transactionPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,druid-stat-interceptor,druid-stat-pointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy</td>
 </tr>
 
 <tr>
-<td>7751</td>
+<td>2285</td>
 <td title="Thread-1 thread">Thread-1</td>
 <td title="Level">INFO</td>
 <td title="com.alibaba.druid.pool.DruidDataSource category">com.alibaba.druid.pool.DruidDataSource</td>
