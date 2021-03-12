@@ -22,4 +22,7 @@ public class CglibProxyTest {
         CglibTestSon2.oneday();
         CglibTestSon2.onedayFinal();
     }
+    
+    
+    
 }
