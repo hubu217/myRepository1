@@ -139,6 +139,24 @@
 			<artifactId>cglib</artifactId>
 			<version>3.2.6</version>
 	    </dependency>
+
+
+
+
+   <!-- 导入httpclient包 -->
+	<dependency>
+		<groupId>org.apache.httpcomponents</groupId>
+		<artifactId>httpclient</artifactId>
+		<version>4.5.8</version>
+	</dependency>
+
+	<dependency>
+		<groupId>commons-httpclient</groupId>
+		<artifactId>commons-httpclient</artifactId>
+		<version>3.0.1</version>
+	</dependency>
+		
+		
 		
 	</dependencies>
 	<build>
