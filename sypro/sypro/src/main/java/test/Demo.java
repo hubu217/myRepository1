@@ -11,6 +11,7 @@ import org.apache.commons.httpclient.params.HttpMethodParams;
 import org.springframework.stereotype.Controller;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 
 @Controller                   
 public class Demo {
@@ -32,8 +33,7 @@ public class Demo {
 					String  sourceApp ="PASC";
 					
 					 AddressUtils addressUtils = new AddressUtils();
-					// String sourceIp = addressUtils.getV4IP(); //外网IP
-					 String sourceIp = "外网IP"; //外网IP
+					String sourceIp = addressUtils.getV4IP(); //外网IP
 					 System.out.println("外网IP sourceIp="+sourceIp);
 					 
 					
@@ -59,6 +59,12 @@ public class Demo {
 					authorize_client.executeMethod(postMethod);
 					String norsubmit = postMethod.getResponseBodyAsString();
 					System.out.println("第三方短信通道返回Data:"+norsubmit);
+					
+					JSONObject jsonObj = JSONObject.parseObject(norsubmit);
+					String code = (String) jsonObj.get("code");
+					String msg = (String) jsonObj.get("msg");
+					
+					System.out.println("code="+code +"; msg="+msg);
 					
 					
 		} catch (HttpException e) {
