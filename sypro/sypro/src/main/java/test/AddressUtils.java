@@ -244,31 +244,20 @@ public class AddressUtils {
         String ip2 = addressUtils.getV4IP(); //用于实际判断地址的ip
         System.out.println("外网ip:" + ip2);
         //step2.根据外网ip地址，得到市级地理位置
-        String address = "";
-        try {
-            address = addressUtils.getAddresses("ip=" + ip2, "utf-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-            // 输出地址，比如：中国，山东省，济南市，联通
-        System.out.println("您的" + address);
-        System.out.println("******************************");
-        System.out.println("请输入想要查询的ip地址(输入exit退出)：");
-        Scanner scan = new Scanner(System.in);
-        String ip = "";
-        while (!"exit".equals(ip = scan.next())) {
-            try {
-                address = addressUtils.getAddresses("ip=" + ip, "utf-8");
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
-            }
-            // 输出地址，比如：中国，山东省，济南市，联通
-            System.out.println(ip + "的" + address);
-            System.out.println("******************************");
-            System.out.println("请输入想要查询的ip地址(输入exit退出)：");
-        }
-        scan.close();
-        System.out.println("再见");
+		/*
+		 * String address = ""; try { address = addressUtils.getAddresses("ip=" + ip2,
+		 * "utf-8"); } catch (UnsupportedEncodingException e) { e.printStackTrace(); }
+		 * // 输出地址，比如：中国，山东省，济南市，联通 System.out.println("您的" + address);
+		 * System.out.println("******************************");
+		 * System.out.println("请输入想要查询的ip地址(输入exit退出)："); Scanner scan = new
+		 * Scanner(System.in); String ip = ""; while (!"exit".equals(ip = scan.next()))
+		 * { try { address = addressUtils.getAddresses("ip=" + ip, "utf-8"); } catch
+		 * (UnsupportedEncodingException e) { e.printStackTrace(); } //
+		 * 输出地址，比如：中国，山东省，济南市，联通 System.out.println(ip + "的" + address);
+		 * System.out.println("******************************");
+		 * System.out.println("请输入想要查询的ip地址(输入exit退出)："); } scan.close();
+		 * System.out.println("再见");
+		 */
     }
  
 }

@@ -189,9 +189,9 @@
 	</div>
 </div>
 
-<div id="defaultUserInfoDialog" title="系统测试账号" style="width: 300px; height: 260px; overflow: hidden; display: none;">
-	<div class="well well-small" style="margin: 3px;">请大家不要随意更改系统默认账户的信息，如果想测试，请自己新建立用户进行测试</div>
-	<div class="well well-small" style="margin: 3px;">
+<div id="defaultUserInfoDialog" title="系统测试账号|测试页面学习学习" style="width: 300px; height: 260px; overflow: hidden; display: none;">
+	<div class="well well-small" style="margin: 6px;">请大家不要随意更改系统默认账户的信息，如果想测试，请自己新建立用户进行测试|测试页面学习学习</div>
+	<div class="well well-small" style="margin: 6px;">
 		<div>
 			<span class="badge">1</span>超管：孙宇/123456
 		</div>
