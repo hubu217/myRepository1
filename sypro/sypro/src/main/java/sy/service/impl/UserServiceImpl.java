@@ -320,4 +320,12 @@ public class UserServiceImpl implements UserServiceI {
 		return l;
 	}
 
+	
+	
+	@Override
+	public int testTransaction1(Map<String, String> paramMap) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
