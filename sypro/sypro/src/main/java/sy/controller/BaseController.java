@@ -24,6 +24,21 @@ import sy.util.StringEscapeEditor;
 @RequestMapping("/baseController")
 public class BaseController {
 
+	@Override
+	public String toString() {
+		return super.toString();
+	}
+
+	@Override
+	public int hashCode() {
+		return super.hashCode();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		return super.equals(obj);
+	}
+
 	@InitBinder
 	public void initBinder(ServletRequestDataBinder binder) {
 		/**

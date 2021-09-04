@@ -1,18 +1,8 @@
 package sy.service.impl;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.UUID;
-
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import sy.dao.ResourceDaoI;
 import sy.dao.RoleDaoI;
 import sy.dao.UserDaoI;
@@ -25,6 +15,8 @@ import sy.pageModel.SessionInfo;
 import sy.pageModel.User;
 import sy.service.UserServiceI;
 import sy.util.MD5Util;
+
+import java.util.*;
 
 @Service
 public class UserServiceImpl implements UserServiceI {

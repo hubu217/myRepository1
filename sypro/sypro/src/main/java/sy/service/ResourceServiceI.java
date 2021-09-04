@@ -13,14 +13,14 @@ import sy.pageModel.Tree;
  * 
  */
 public interface ResourceServiceI {
-
 	/**
 	 * 获得资源树(资源类型为菜单类型)
-	 * 
+	 *
 	 * 通过用户ID判断，他能看到的资源
-	 * 
+	 *
 	 * @param sessionInfo
 	 * @return
+
 	 */
 	public List<Tree> tree(SessionInfo sessionInfo);
 

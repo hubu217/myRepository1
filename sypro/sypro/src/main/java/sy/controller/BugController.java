@@ -45,7 +45,7 @@ public class BugController extends BaseController {
 
 	/**
 	 * 获取BUG数据表格
-	 * 
+	 *
 	 * @param user
 	 * @return
 	 */
@@ -106,6 +106,9 @@ public class BugController extends BaseController {
 	 * 跳转到BUG修改页面
 	 * 
 	 * @return
+	 *
+	 *
+	 *
 	 */
 	@RequestMapping("/editPage")
 	public String editPage(HttpServletRequest request, String id) {
