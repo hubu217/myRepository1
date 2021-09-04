@@ -14,6 +14,7 @@ import org.hibernate.mapping.Array;
 import org.springframework.stereotype.Controller;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
 @Controller                   
@@ -29,15 +30,21 @@ public class Demo {
 		
 		//System.out.println("testFlag="+testFlag);
 		
+		/*
+		 * List<String> testList = new ArrayList<String>(); int i = 1; while(true) {
+		 * String index = String.valueOf(i); testList.add(index);
+		 * System.out.println("index="+index); i++;
+		}*/
 		
-		List<String> testList = new ArrayList<String>();
-		int i = 1;
-		while(true) {
-			String index = String.valueOf(i);
-			testList.add(index);
-			System.out.println("index="+index);
-			i++;
-		}
+		
+		
+		String a ="11";
+		String b ="22";
+		String c ="22";
+		
+		System.out.println("a lenth="+a.hashCode());
+		System.out.println("b lenth="+b.hashCode());
+		System.out.println("c lenth="+c.hashCode());
 		
 	}
 	
@@ -118,6 +125,17 @@ public class Demo {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
+		
+	}
+	
+	
+	
+	
+	public void show2(String str) {
+		
+		JSONArray array = JSON.parseArray(str);
+		
+		
 		
 	}
 	

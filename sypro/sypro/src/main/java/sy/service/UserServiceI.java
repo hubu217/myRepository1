@@ -1,6 +1,7 @@
 package sy.service;
 
 import java.util.List;
+import java.util.Map;
 
 import sy.pageModel.DataGrid;
 import sy.pageModel.PageHelper;
@@ -129,5 +130,9 @@ public interface UserServiceI {
 	 * @return
 	 */
 	public List<Long> userCreateDatetimeChart();
+	
+	
+
+	public int testTransaction1(Map<String, String> paramMap);
 
 }
