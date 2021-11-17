@@ -8,9 +8,24 @@ public class TestController {
 		
 		
 		System.out.println("====TestController main() 执行!");
+
+		int i = 0;
+		for(;;){
+			i++;
+			System.out.println("自旋!"+i);
+		}
 	}
 
+
+
+
+
+
+
+
 }
+
+
 
 
 
