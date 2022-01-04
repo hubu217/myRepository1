@@ -1,6 +1,7 @@
 package sy.controller;
 
 import java.util.List;
+import java.util.Map;
 import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
@@ -9,6 +10,7 @@ import javax.servlet.http.HttpSession;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -64,7 +66,7 @@ public class UserController extends BaseController {
 
 			SessionInfo sessionInfo = new SessionInfo();
 			BeanUtils.copyProperties(u, sessionInfo);
-			sessionInfo.setIp(IpUtil.getIpAddr(request));
+			//sessionInfo.setIp(IpUtil.getIpAddr(request));
 			sessionInfo.setResourceList(userService.resourceList(u.getId()));
 			session.setAttribute(ConfigUtil.getSessionInfoName(), sessionInfo);
 
@@ -398,5 +400,25 @@ public class UserController extends BaseController {
 	public DataGrid loginCombogrid(String q, PageHelper ph) {
 		return userService.loginCombogrid(q, ph);
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@RequestMapping("/testTransaction1")
+	@ResponseBody
+	public int testTransaction1(@RequestBody Map<String,String> paramMap) {
+		
+		return userService.testTransaction1(paramMap);
+	}
+	
+	
+	
+	
+	
 
 }
