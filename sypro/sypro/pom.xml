@@ -231,10 +231,10 @@
 			</plugin>
 
 			<!-- 配置Maven插件(mvn jetty:run可以运行项目) -->
-			<plugin>
+			<!--<plugin>
 				<groupId>org.mortbay.jetty</groupId>
 				<artifactId>maven-jetty-plugin</artifactId>
-			</plugin>
+			</plugin>-->
 
 		</plugins>
 	</build>
