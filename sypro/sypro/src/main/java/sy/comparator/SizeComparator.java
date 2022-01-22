@@ -4,6 +4,11 @@ import java.util.Comparator;
 import java.util.Hashtable;
 
 public class SizeComparator implements Comparator {
+
+
+
+
+
 	public int compare(Object a, Object b) {
 		Hashtable hashA = (Hashtable) a;
 		Hashtable hashB = (Hashtable) b;
