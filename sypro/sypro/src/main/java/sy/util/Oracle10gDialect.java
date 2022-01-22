@@ -33,4 +33,9 @@ public class Oracle10gDialect extends Oracle9iDialect {
 		return new ANSIJoinFragment();
 	}
 
+
+
+
+
+
 }

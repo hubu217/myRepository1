@@ -11,6 +11,11 @@ import sy.pageModel.PageHelper;
  */
 public interface BugServiceI {
 
+
+
+
+
+
 	/**
 	 * 获取BUG数据表格
 	 * 

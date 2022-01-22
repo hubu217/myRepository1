@@ -199,6 +199,13 @@ public class IdCardUtil {
             return false;
         }
     }
+
+
+
+
+
+
+
     /**
      * @param args
      * @throws ParseException
@@ -213,4 +220,9 @@ public class IdCardUtil {
         // System.out.println(cc.isDate("1996-02-29"));
     }
     /*********************************** 身份证验证结束 ****************************************/
+
+
+
+
+
 }

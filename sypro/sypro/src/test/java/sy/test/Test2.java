@@ -7,6 +7,11 @@ public class Test2 {
 	
 	
 	public static void main(String[] args) {
+
+
+
+
+
 		
 		
 		String str="AI2133132TETEST123ABCGQ";
