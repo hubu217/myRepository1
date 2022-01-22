@@ -15,13 +15,6 @@ import org.springframework.web.util.JavaScriptUtils;
  */
 public class StringEscapeEditor extends PropertyEditorSupport {
 
-
-
-
-
-
-
-
 	private boolean escapeHTML;// 编码HTML
 	private boolean escapeJavaScript;// 编码javascript
 

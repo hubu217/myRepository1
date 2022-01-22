@@ -16,11 +16,6 @@ import javax.sql.rowset.serial.SerialException;
  */
 public class ClobUtil {
 
-
-
-
-
-
 	/**
 	 * 获得字符串
 	 * 

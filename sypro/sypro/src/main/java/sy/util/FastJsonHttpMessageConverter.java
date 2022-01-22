@@ -25,14 +25,6 @@ import com.alibaba.fastjson.serializer.SerializerFeature;
  */
 public class FastJsonHttpMessageConverter extends AbstractHttpMessageConverter<Object> {
 
-
-
-
-
-
-
-
-
 	public final static Charset UTF8 = Charset.forName("UTF-8");
 
 	private Charset charset = UTF8;

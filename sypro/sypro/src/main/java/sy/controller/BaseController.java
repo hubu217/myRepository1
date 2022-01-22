@@ -24,11 +24,6 @@ import sy.util.StringEscapeEditor;
 @RequestMapping("/baseController")
 public class BaseController {
 
-
-
-
-
-
 	@Override
 	public String toString() {
 		return super.toString();
