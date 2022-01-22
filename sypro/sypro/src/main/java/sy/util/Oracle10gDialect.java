@@ -16,6 +16,12 @@ import org.hibernate.type.StandardBasicTypes;
  */
 public class Oracle10gDialect extends Oracle9iDialect {
 
+
+
+
+
+
+
 	public Oracle10gDialect() {
 		super();
 		registerFunction("second", new SQLFunctionTemplate(StandardBasicTypes.INTEGER, "to_char(?1, 'SS')"));

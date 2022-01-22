@@ -10,6 +10,11 @@ import java.util.regex.Pattern;
 import com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException;
  
 public class IdCardUtil {
+
+
+
+
+
     /*********************************** 身份证验证开始 ****************************************/
     /**
      * 身份证号码验证 1、号码的结构 公民身份号码是特征组合码，由十七位数字本体码和一位校验码组成。排列顺序从左至右依次为：六位数字地址码，

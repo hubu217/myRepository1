@@ -25,6 +25,13 @@ import java.util.regex.Pattern;
  *  
  */
 public class AddressUtils {
+
+
+
+
+
+
+
  
     /**
      * 获取本机的内网ip地址

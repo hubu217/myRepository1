@@ -10,6 +10,12 @@ import java.util.ResourceBundle;
  */
 public class ConfigUtil {
 
+
+
+
+
+
+
 	private static final ResourceBundle bundle = java.util.ResourceBundle.getBundle("config");
 
 	/**
