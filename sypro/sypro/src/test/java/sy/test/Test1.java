@@ -13,6 +13,14 @@ import sy.service.UserServiceI;
 @ContextConfiguration(locations = { "classpath:spring.xml", "classpath:spring-hibernate.xml", "classpath:spring-druid.xml" })
 public class Test1 {
 
+
+
+
+
+
+
+
+
 	@Autowired
 	private InitServiceI initService;
 
