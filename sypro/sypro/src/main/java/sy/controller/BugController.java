@@ -26,6 +26,10 @@ import sy.service.BugTypeServiceI;
 @RequestMapping("/bugController")
 public class BugController extends BaseController {
 
+
+
+
+
 	@Autowired
 	private BugServiceI bugService;
 
