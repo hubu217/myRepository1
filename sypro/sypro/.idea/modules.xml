@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../../project3/springBoot_Mybatis/Springboot_Mybatis/demo.iml" filepath="$PROJECT_DIR$/../../../project3/springBoot_Mybatis/Springboot_Mybatis/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../project4/aop-demo/demoSpringAop-artifactId.iml" filepath="$PROJECT_DIR$/../../../project4/aop-demo/demoSpringAop-artifactId.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sypro.iml" filepath="$PROJECT_DIR$/.idea/sypro.iml" />
     </modules>
   </component>
