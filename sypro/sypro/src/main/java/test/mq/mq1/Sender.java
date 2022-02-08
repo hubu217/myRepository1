@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
  
 /**
- * 简单模式
+ * 模式1：简单模式
  */
 public class Sender {
 	
