@@ -15,7 +15,7 @@ import test.mq.ConnectionUtil;
 /**
  * 
  * @author asus
- * 模式2：工作模式（Work单发送 多接收）
+ * 模式2：工作模式（Work单发送多接收）
  *
  */
 public class Producter {

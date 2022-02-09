@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
  
 /**
- * 模式1：简单模式
+ * 模式1：简单模式（Simple / HelloWorld 单生产 单消费）
  */
 public class Sender {
 	

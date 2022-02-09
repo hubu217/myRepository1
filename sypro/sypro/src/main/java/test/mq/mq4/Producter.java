@@ -9,7 +9,11 @@ import test.mq.ConnectionUtil;
 
 
 
-
+/**
+ * 模式4：路由模式（Routing）
+ * @author asus
+ *
+ */
 public class Producter {
 	
 	
