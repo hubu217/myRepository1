@@ -30,7 +30,7 @@ public class Producter {
 				//声明交换机Exchange类型为fanout
 				channel.exchangeDeclare(EXCHANGE_NAME, "fanout");
 				
-				for(int i=0;i<50;i++) {
+				for(int i=50;i<70;i++) {
 						String message = "publish/subscrible; 消息:"+i;
 						channel.basicPublish(EXCHANGE_NAME, "", null, message.getBytes());
 						System.out.println("发布订阅 生产者 生产："+message);
