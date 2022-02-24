@@ -1,5 +1,6 @@
 package com.example.hkt;
 
+import org.apache.log4j.Logger;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -7,42 +8,33 @@ import sy.util.HttpRequestUtil;
 
 
 
-
-
-public class MainStart {
+public class MyQuartzTask {
 	
 	
 	
 	
+	private static final Logger logger = Logger.getLogger(MyQuartzTask.class);
 	
 	
-	
-	
-	
-	public static void main(String[] args) {
-		
-		
-		
-		  long startTime = System.currentTimeMillis();
+    //简单触发器运行的任务
+    public void doSimpleTask(){
+    	
+    	logger.info("【定时任务-简单触发器】doSimpleTask正在运行...................................................................");
+        long startTime = System.currentTimeMillis();
 		  //第一步： 配置cookie
 		  String cookie ="isolate-web-session-id=7490b01b-ef78-46ec-b47e-a3f48d5f4744";
 		  
 		  String url2_post = "https://hk.sz.gov.cn:8118/districtHousenumLog/getList"; 
 		  String url3 ="https://hk.sz.gov.cn:8118/passInfo/confirmOrder?"; 
-		//String url3_get ="?checkinDate=2022-03-02&t=1645673178027&s=f3468a80d52d21b41fa415c69c471e48";
 		  
 		  //第二步: 请求结果列表
 		  String data2 = HttpRequestUtil.doPost(url2_post, cookie, "");
 		  System.out.println("【第2步结果data2】="+data2);
 		 
 		  Data lastDataVo = parseStringJson(data2);
-		  //System.out.println("【最后一个对象 lastDataVo】="+JSON.toJSONString(lastDataVo));
-		  
 		  String checkinDate= lastDataVo.getDate().trim();
 		  String timespan = String.valueOf(lastDataVo.getTimespan()).trim();
 		  String sign = lastDataVo.getSign().trim();
-		 // SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-		 // String checkinDate= sdf.format(new Date());
 		  
 		  String url3_get = url3+"checkinDate="+checkinDate+"&t="+timespan+"&s="+sign;
 		  System.out.println("【url3_get】="+url3_get);
@@ -53,32 +45,34 @@ public class MainStart {
 		  long endTime = System.currentTimeMillis();
 		  
 		  System.out.println("【总耗时】=" +(endTime-startTime));
-		
-	}
-	
-	
-	
-	
-	
-	
+    }
+    
+    
+    //cron任务触发器运行的任务
+    public void doCronTask(){
+        System.out.println("【定时任务-cron任务触发器】 doCronTask正在运行...");
+    }
+    
+    
+    
 	public static  Data parseStringJson(String jsonStr) {
+			
+			JSONObject jsonObj =  JSONObject.parseObject(jsonStr);
+			
+			JSONArray data_jsonArray = (JSONArray) jsonObj.get("data");
+			
+			Object[]  dataArr =  data_jsonArray.toArray();
+			int len = dataArr.length;
+			JSONObject lastJsonObj = (JSONObject) dataArr[len-1];
+			Data lastDataVo = JSONObject.parseObject(JSON.toJSONString(lastJsonObj), Data.class);
+			
+			
+			return lastDataVo;
+		}
 		
-		JSONObject jsonObj =  JSONObject.parseObject(jsonStr);
-		//Integer status = (Integer) jsonObj.get("status");
-		//String msg = (String)jsonObj.get("msg");
-		
-		JSONArray data_jsonArray = (JSONArray) jsonObj.get("data");
-		//System.out.println("data_jsonArray="+data_jsonArray);
-		
-		Object[]  dataArr =  data_jsonArray.toArray();
-		int len = dataArr.length;
-		JSONObject lastJsonObj = (JSONObject) dataArr[len-1];
-		Data lastDataVo = JSONObject.parseObject(JSON.toJSONString(lastJsonObj), Data.class);
-		
-		
-		return lastDataVo;
-	}
-	
-	
-
+    
+    
+    
+    
+    
 }
