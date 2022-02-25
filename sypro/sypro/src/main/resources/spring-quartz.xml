@@ -28,8 +28,8 @@
      	<property name="jobDetail" ref="myJobDetail1"></property>
      	<!-- 设置延迟1秒开始执行,自己看情况 -->
      	<property name="startDelay" value="1000"></property>
-     	<!-- 设置任务执行间隔，此处设置的是每3秒执行一次  -->
-     	<property name="repeatInterval" value="3000"></property>
+     	<!-- 设置任务执行间隔，此处设置的是每2秒执行一次  -->
+     	<property name="repeatInterval" value="2000"></property>
      </bean> 
      
      <!-- 设置触发器调度工厂 -->   

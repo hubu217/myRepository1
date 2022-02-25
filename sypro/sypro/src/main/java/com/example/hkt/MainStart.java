@@ -25,7 +25,14 @@ public class MainStart {
 		
 		  long startTime = System.currentTimeMillis();
 		  //第一步： 配置cookie
-		  String cookie ="isolate-web-session-id=7490b01b-ef78-46ec-b47e-a3f48d5f4744";
+		  String cookie ="isolate-web-session-id=f4c58c36-544d-41d3-966b-50c56e72edf8";
+		  
+		  
+		  
+		  
+		  
+		  
+		  
 		  
 		  String url2_post = "https://hk.sz.gov.cn:8118/districtHousenumLog/getList"; 
 		  String url3 ="https://hk.sz.gov.cn:8118/passInfo/confirmOrder?"; 
