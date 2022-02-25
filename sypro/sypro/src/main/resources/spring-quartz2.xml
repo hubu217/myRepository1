@@ -10,9 +10,8 @@
     
     
      <!--注入任务处理类bean  -->   
-    <!--  <bean id="quartzTask2" class="com.example.hkt.MyQuartzTask"></bean>  -->
+     <bean id="quartzTask2" class="com.example.hkt.MyQuartzTask"></bean> 
     
-     <bean id="quartzTask2" class="com.example.hkt.MainStart"> </bean> 
      
      <!-- 2.任务触发器详细信息bean -->
      <bean id="myJobDetail2" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
@@ -21,7 +20,7 @@
      	<!-- 设置任务执行对象中对应的执行方法 -->
      	<property name="targetMethod" value="doCronTask"></property>
      	<!-- 设置任务是否可并发执行，默认为不并发 -->
-     	<property name="concurrent" value="false"></property>
+     	<property name="concurrent" value="true"></property>
      </bean>
      
      <!-- 2.任务触发器 -->
@@ -29,7 +28,7 @@
      	<!-- 设置任务详细信息 -->
      	<property name="jobDetail" ref="myJobDetail2"></property>
      	<!-- 设置quartz任务执行表达式 ,每隔三秒执行一次任务-->
-     	<property name="cronExpression" value="0/3 * * * * ?"></property>
+     	<property name="cronExpression" value="0/1 * * * * ?"></property>
      </bean>
      
      <!-- 设置触发器调度工厂 -->   
