@@ -42,7 +42,7 @@ public class HttpRequestUtil {
         httpGet.setHeader("Content-type", "application/json");
         httpGet.setHeader("DataEncoding", "UTF-8");
         httpGet.setHeader("Cookie", cookie);
-        RequestConfig requestConfig = RequestConfig.custom().setConnectTimeout(35000).setConnectionRequestTimeout(35000).setSocketTimeout(60000).build();
+        RequestConfig requestConfig = RequestConfig.custom().setConnectTimeout(350000).setConnectionRequestTimeout(350000).setSocketTimeout(600000).build();
         httpGet.setConfig(requestConfig);
 
         CloseableHttpResponse httpResponse = null;
@@ -87,7 +87,7 @@ public class HttpRequestUtil {
 
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpPost httpPost = new HttpPost(url);
-        RequestConfig requestConfig = RequestConfig.custom().setConnectTimeout(35000).setConnectionRequestTimeout(35000).setSocketTimeout(60000).build();
+        RequestConfig requestConfig = RequestConfig.custom().setConnectTimeout(350000).setConnectionRequestTimeout(350000).setSocketTimeout(600000).build();
         httpPost.setConfig(requestConfig);
         httpPost.setHeader("Content-type", "application/json");
         httpPost.setHeader("DataEncoding", "UTF-8");
@@ -137,7 +137,7 @@ public class HttpRequestUtil {
 
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpPut httpPut = new HttpPut(url);
-        RequestConfig requestConfig = RequestConfig.custom().setConnectTimeout(35000).setConnectionRequestTimeout(35000).setSocketTimeout(60000).build();
+        RequestConfig requestConfig = RequestConfig.custom().setConnectTimeout(350000).setConnectionRequestTimeout(350000).setSocketTimeout(600000).build();
         httpPut.setConfig(requestConfig);
         httpPut.setHeader("Content-type", "application/json");
         httpPut.setHeader("DataEncoding", "UTF-8");
@@ -187,7 +187,7 @@ public class HttpRequestUtil {
 
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpDelete httpDelete = new HttpDelete(url);
-        RequestConfig requestConfig = RequestConfig.custom().setConnectTimeout(35000).setConnectionRequestTimeout(35000).setSocketTimeout(60000).build();
+        RequestConfig requestConfig = RequestConfig.custom().setConnectTimeout(350000).setConnectionRequestTimeout(350000).setSocketTimeout(600000).build();
         httpDelete.setConfig(requestConfig);
         httpDelete.setHeader("Content-type", "application/json");
         httpDelete.setHeader("DataEncoding", "UTF-8");

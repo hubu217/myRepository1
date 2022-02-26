@@ -1,5 +1,8 @@
 package com.example.hkt;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.apache.log4j.Logger;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
@@ -14,6 +17,10 @@ public class MyQuartzTask {
 	
 	
 	private static final Logger logger = Logger.getLogger(MyQuartzTask.class);
+	 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	
+	 
+	  
 	
 	
     //简单触发器运行的任务
@@ -27,10 +34,12 @@ public class MyQuartzTask {
 	
 	  public synchronized void doCronTask(){
 		  
-		  		logger.info("【定时任务-cron任务触发器-同步方法】doCronTask正在运行...................................................................");
+		       
+		        String timeNow= sdf.format(new Date());
+		        System.out.println(timeNow+" 【定时任务-cron任务触发器-同步方法】doCronTask正在运行..............................................");
 		        long startTime = System.currentTimeMillis();
 				  //第一步： 配置cookie
-				  String cookie ="isolate-web-session-id=f4c58c36-544d-41d3-966b-50c56e72edf8";
+				  String cookie ="isolate-web-session-id=633ce22b-3fbe-47de-b0a2-de60de1a7e53";
 				  
 				  
 				  
