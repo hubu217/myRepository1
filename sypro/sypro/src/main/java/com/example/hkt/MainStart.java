@@ -25,7 +25,7 @@ public class MainStart {
 		
 		  long startTime = System.currentTimeMillis();
 		  //第一步： 配置cookie
-		  String cookie ="isolate-web-session-id=2f577c17-1116-4561-a5c5-59148e6ad979";
+		  String cookie ="isolate-web-session-id=4fa30ff1-b039-4570-b0a4-a014aded15e8";
 		  
 		  
 		  
@@ -35,11 +35,13 @@ public class MainStart {
 		  
 		  
 		  String url2_post = "https://hk.sz.gov.cn:8118/districtHousenumLog/getList"; 
+		  String url2_get = "https://hk.sz.gov.cn:8118/passInfo/detail"; 
 		  String url3 ="https://hk.sz.gov.cn:8118/passInfo/confirmOrder?"; 
 		//String url3_get ="?checkinDate=2022-03-02&t=1645673178027&s=f3468a80d52d21b41fa415c69c471e48";
 		  
 		  //第二步: 请求结果列表
-		  String data2 = HttpRequestUtil.doPost(url2_post, cookie, "");
+		 // String data2 = HttpRequestUtil.doPost(url2_post, cookie, "");
+		  String data2 = HttpRequestUtil.doGet(url2_get, cookie);
 		  System.out.println("【第2步结果data2】="+data2);
 		 
 		  Data lastDataVo = parseStringJson(data2);
