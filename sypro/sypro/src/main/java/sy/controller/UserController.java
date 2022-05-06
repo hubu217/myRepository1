@@ -412,6 +412,7 @@ public class UserController extends BaseController {
 	@RequestMapping("/testTransaction1")
 	@ResponseBody
 	public int testTransaction1(@RequestBody Map<String,String> paramMap) {
+		JSON.toJSONString(paramMap);
 		
 		return userService.testTransaction1(paramMap);
 	}

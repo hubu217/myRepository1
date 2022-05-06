@@ -1,20 +1,18 @@
 package sy.controller;
 
-import java.util.UUID;
-
-import javax.servlet.http.HttpServletRequest;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 import sy.pageModel.Bug;
 import sy.pageModel.DataGrid;
 import sy.pageModel.Json;
 import sy.pageModel.PageHelper;
 import sy.service.BugServiceI;
 import sy.service.BugTypeServiceI;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.UUID;
 
 /**
  * BUG管理控制器
@@ -29,16 +27,16 @@ public class BugController extends BaseController {
 
 
 
-
 	@Autowired
 	private BugServiceI bugService;
+
 
 	@Autowired
 	private BugTypeServiceI bugTypeService;
 
 	/**
 	 * 跳转到BUG管理页面
-	 * 
+	 *
 	 * @return
 	 */
 	@RequestMapping("/manager")

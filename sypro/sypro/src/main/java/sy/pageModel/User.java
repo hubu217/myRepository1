@@ -1,12 +1,17 @@
 package sy.pageModel;
 
+
 import java.util.Date;
+
+
 
 public class User implements java.io.Serializable {
 
 	private String id;
 	private String name;
 	private String pwd;
+
+
 	private Date createdatetime;
 	private Date modifydatetime;
 
@@ -18,13 +23,27 @@ public class User implements java.io.Serializable {
 	private String roleIds;
 	private String roleNames;
 
-	public Date getCreatedatetimeStart() {
-		return createdatetimeStart;
+	private String test;
+
+
+	public String getTest() {
+		return test;
 	}
 
+	public void setTest(String test) {
+		this.test = test;
+	}
+
+	public Date getCreatedatetimeStart() {
+		return createdatetimeStart;
+//		System.out.println();
+	}
+
+/*
 	public void setCreatedatetimeStart(Date createdatetimeStart) {
 		this.createdatetimeStart = createdatetimeStart;
 	}
+*/
 
 	public Date getCreatedatetimeEnd() {
 		return createdatetimeEnd;
@@ -58,9 +77,9 @@ public class User implements java.io.Serializable {
 		this.roleIds = roleIds;
 	}
 
-	public String getRoleNames() {
+	/*public String getRoleNames() {
 		return roleNames;
-	}
+	}*/
 
 	public void setRoleNames(String roleNames) {
 		this.roleNames = roleNames;
@@ -106,4 +125,31 @@ public class User implements java.io.Serializable {
 		this.modifydatetime = modifydatetime;
 	}
 
+
+
+	public static void main(String[] args) {
+
+        	System.out.println("User.java");
+
+
+	}
+
+
+	@Override
+	public String toString() {
+		return "User{" +
+				"id='" + id + '\'' +
+				", name='" + name + '\'' +
+				", pwd='" + pwd + '\'' +
+				", createdatetime=" + createdatetime +
+				", modifydatetime=" + modifydatetime +
+				", createdatetimeStart=" + createdatetimeStart +
+				", createdatetimeEnd=" + createdatetimeEnd +
+				", modifydatetimeStart=" + modifydatetimeStart +
+				", modifydatetimeEnd=" + modifydatetimeEnd +
+				", roleIds='" + roleIds + '\'' +
+				", roleNames='" + roleNames + '\'' +
+				", test='" + test + '\'' +
+				'}';
+	}
 }

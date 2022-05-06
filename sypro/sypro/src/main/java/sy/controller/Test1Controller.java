@@ -1,29 +1,22 @@
 package sy.controller;
 
-import java.util.List;
-import java.util.UUID;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
+import com.alibaba.fastjson.JSON;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import sy.pageModel.DataGrid;
-import sy.pageModel.Json;
-import sy.pageModel.PageHelper;
-import sy.pageModel.SessionInfo;
-import sy.pageModel.User;
+import sy.pageModel.*;
 import sy.service.ResourceServiceI;
 import sy.service.RoleServiceI;
 import sy.service.UserServiceI;
 import sy.util.ConfigUtil;
 import sy.util.IpUtil;
 
-import com.alibaba.fastjson.JSON;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import java.util.List;
+import java.util.UUID;
 
 /**
  * 用户控制器
@@ -45,39 +38,8 @@ public class Test1Controller extends BaseController {
 	private ResourceServiceI resourceService;
 
 	/**
-	 * 用户登录
-	 * 
-	 * @param user
-	 *            用户对象
-	 * @param session
-	 * @param request
-	 * @return
-	 */
-	@ResponseBody
-	@RequestMapping("/login")
-	public Json login(User user, HttpSession session, HttpServletRequest request) {
-		Json j = new Json();
-		User u = userService.login(user);
-		if (u != null) {
-			j.setSuccess(true);
-			j.setMsg("登陆成功！");
-
-			SessionInfo sessionInfo = new SessionInfo();
-			BeanUtils.copyProperties(u, sessionInfo);
-			sessionInfo.setIp(IpUtil.getIpAddr(request));
-			sessionInfo.setResourceList(userService.resourceList(u.getId()));
-			session.setAttribute(ConfigUtil.getSessionInfoName(), sessionInfo);
-
-			j.setObj(sessionInfo);
-		} else {
-			j.setMsg("用户名或密码错误！");
-		}
-		return j;
-	}
-
-	/**
 	 * 用户注册
-	 * 
+	 *
 	 * @param user
 	 *            用户对象
 	 * @return
@@ -100,7 +62,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 退出登录
-	 * 
+	 *
 	 * @param session
 	 * @return
 	 */
@@ -118,7 +80,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 跳转到用户管理页面
-	 * 
+	 *
 	 * @return
 	 */
 	@RequestMapping("/manager")
@@ -128,7 +90,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 获取用户数据表格
-	 * 
+	 *
 	 * @param user
 	 * @return
 	 */
@@ -140,7 +102,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 跳转到添加用户页面
-	 * 
+	 *
 	 * @param request
 	 * @return
 	 */
@@ -154,7 +116,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 添加用户
-	 * 
+	 *
 	 * @return
 	 */
 	@RequestMapping("/add")
@@ -175,7 +137,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 跳转到用户修改页面
-	 * 
+	 *
 	 * @return
 	 */
 	@RequestMapping("/editPage")
@@ -187,7 +149,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 修改用户
-	 * 
+	 *
 	 * @param user
 	 * @return
 	 */
@@ -209,7 +171,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 删除用户
-	 * 
+	 *
 	 * @param id
 	 * @return
 	 */
@@ -228,7 +190,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 批量删除用户
-	 * 
+	 *
 	 * @param ids
 	 *            ('0','1','2')
 	 * @return
@@ -251,7 +213,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 跳转到用户授权页面
-	 * 
+	 *
 	 * @return
 	 */
 	@RequestMapping("/grantPage")
@@ -266,7 +228,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 用户授权
-	 * 
+	 *
 	 * @param ids
 	 * @return
 	 */
@@ -282,7 +244,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 跳转到编辑用户密码页面
-	 * 
+	 *
 	 * @param id
 	 * @param request
 	 * @return
@@ -296,7 +258,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 编辑用户密码
-	 * 
+	 *
 	 * @param user
 	 * @return
 	 */
@@ -312,7 +274,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 跳转到编辑自己的密码页面
-	 * 
+	 *
 	 * @return
 	 */
 	@RequestMapping("/editCurrentUserPwdPage")
@@ -322,7 +284,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 修改自己的密码
-	 * 
+	 *
 	 * @param session
 	 * @param pwd
 	 * @return
@@ -351,7 +313,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 跳转到显示用户角色页面
-	 * 
+	 *
 	 * @return
 	 */
 	@RequestMapping("/currentUserRolePage")
@@ -363,7 +325,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 跳转到显示用户权限页面
-	 * 
+	 *
 	 * @return
 	 */
 	@RequestMapping("/currentUserResourcePage")
@@ -375,7 +337,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 用户登录时的autocomplete
-	 * 
+	 *
 	 * @param q
 	 *            参数
 	 * @return
@@ -388,7 +350,7 @@ public class Test1Controller extends BaseController {
 
 	/**
 	 * 用户登录时的combogrid
-	 * 
+	 *
 	 * @param q
 	 * @param ph
 	 * @return
@@ -399,4 +361,35 @@ public class Test1Controller extends BaseController {
 		return userService.loginCombogrid(q, ph);
 	}
 
+
+	/**
+	 * 用户登录
+	 *
+	 * @param user
+	 *            用户对象
+	 * @param session
+	 * @param request
+	 * @return
+	 */
+	@ResponseBody
+	@RequestMapping("/login")
+	public Json login(User user, HttpSession session, HttpServletRequest request) {
+		Json j = new Json();
+		User u = userService.login(user);
+		if (u != null) {
+			j.setSuccess(true);
+			j.setMsg("登陆成功！");
+
+			SessionInfo sessionInfo = new SessionInfo();
+			BeanUtils.copyProperties(u, sessionInfo);
+			sessionInfo.setIp(IpUtil.getIpAddr(request));
+			sessionInfo.setResourceList(userService.resourceList(u.getId()));
+			session.setAttribute(ConfigUtil.getSessionInfoName(), sessionInfo);
+
+			j.setObj(sessionInfo);
+		} else {
+			j.setMsg("用户名或密码错误！");
+		}
+		return j;
+	}
 }
