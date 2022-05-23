@@ -31,6 +31,9 @@ public class UniqueRequest {
 		String  str3="c";
 		
 		System.out.println(str1.hashCode()+" "+str2.hashCode()+" "+str3.hashCode());
+		
+		String str4 = "";
+		System.out.println("str4="+str4);
 			    
 			   
 
