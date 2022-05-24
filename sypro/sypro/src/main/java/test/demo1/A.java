@@ -7,6 +7,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
@@ -26,12 +28,10 @@ public class A {
 		 * 
 		 */
 		
-		String str1= "a";
-		String str2= "A";
-		String str3= "李名";
-		System.out.println(str1.length());
-		System.out.println(str2.length());
-		System.out.println(str3.length());
+		
+		String mobile = "16727465535";
+		boolean flag = isMobile(mobile);
+		System.out.println("flag="+flag);
 		
 		
 		
@@ -57,6 +57,17 @@ public class A {
 		
 		
 	}
+	
+	
+	
+	public static boolean isMobile(String mobile) {
+		String regex = "^((13[0-9])|(14[5,7,9])|(15([0-3]|[5-9]))|(16[5,6,7])|(17[0-8])|(18[0-9])|(19[1、5、8、9]))\\d{8}$";
+		Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
+		Matcher m = p.matcher(mobile);
+		return m.matches();
+	}	
+	
+	
 	
 	
 	
